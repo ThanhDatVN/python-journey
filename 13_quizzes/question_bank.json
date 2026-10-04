@@ -1,0 +1,6491 @@
+[
+ {
+  "id": 1,
+  "chapter": "01_python_tutorial",
+  "order": 1,
+  "lesson": "Python HOME",
+  "link": "../01_python_tutorial/001_python_home.ipynb",
+  "question": "Trong Jupyter Notebook, tổ hợp phím nào chạy cell hiện tại rồi chuyển xuống cell tiếp theo?",
+  "options": [
+   "`Ctrl + S`",
+   "`Alt + F4`",
+   "`Shift + Enter`",
+   "`Ctrl + Z`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "`Shift + Enter` chạy cell rồi chuyển con trỏ xuống cell kế tiếp; `Ctrl + Enter` chạy nhưng giữ nguyên vị trí."
+ },
+ {
+  "id": 2,
+  "chapter": "01_python_tutorial",
+  "order": 2,
+  "lesson": "Python Intro",
+  "link": "../01_python_tutorial/002_python_intro.ipynb",
+  "question": "Ai là người tạo ra ngôn ngữ Python?",
+  "options": [
+   "Dennis Ritchie",
+   "Guido van Rossum",
+   "Bjarne Stroustrup",
+   "James Gosling"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "Guido van Rossum phát hành Python lần đầu năm 1991. (Dennis Ritchie tạo ra C, James Gosling tạo ra Java, Bjarne Stroustrup tạo ra C++.)"
+ },
+ {
+  "id": 3,
+  "chapter": "01_python_tutorial",
+  "order": 2,
+  "lesson": "Python Intro",
+  "link": "../01_python_tutorial/002_python_intro.ipynb",
+  "question": "Python dùng gì để xác định một khối lệnh (ví dụ thân vòng lặp)?",
+  "options": [
+   "Thụt lề (indentation)",
+   "Từ khoá `begin` / `end`",
+   "Dấu ngoặc nhọn `{ }`",
+   "Dấu chấm phẩy `;`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 4,
+  "chapter": "01_python_tutorial",
+  "order": 3,
+  "lesson": "Python Get Started",
+  "link": "../01_python_tutorial/003_python_get_started.ipynb",
+  "question": "Phần mở rộng (extension) của file chứa code Python là gì?",
+  "options": [
+   "`.pyt`",
+   "`.pt`",
+   "`.python`",
+   "`.py`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 5,
+  "chapter": "01_python_tutorial",
+  "order": 3,
+  "lesson": "Python Get Started",
+  "link": "../01_python_tutorial/003_python_get_started.ipynb",
+  "question": "Điền vào chỗ trống để chạy file `helloworld.py` trong terminal:\n```bash\n____ helloworld.py\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "python"
+  ],
+  "explanation": "Trên một số máy macOS/Linux, lệnh có thể là `python3`."
+ },
+ {
+  "id": 6,
+  "chapter": "01_python_tutorial",
+  "order": 4,
+  "lesson": "Python Syntax",
+  "link": "../01_python_tutorial/004_python_syntax.ipynb",
+  "question": "Đoạn code nào **đúng cú pháp** Python?",
+  "options": [
+   "`if (5 > 2) { print(\"Yes\") }`",
+   "`if 5 > 2: print(\"Yes\") }`",
+   "`if 5 > 2:` xuống dòng, rồi `    print(\"Yes\")` (thụt lề 4 khoảng trắng)",
+   "`if 5 > 2` xuống dòng, rồi `print(\"Yes\")` (không thụt lề)"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Câu lệnh `if` kết thúc bằng dấu `:` và thân của nó phải được thụt lề."
+ },
+ {
+  "id": 7,
+  "chapter": "01_python_tutorial",
+  "order": 5,
+  "lesson": "Python Statements",
+  "link": "../01_python_tutorial/005_python_statements.ipynb",
+  "question": "Trong Python, cách thông thường để kết thúc một câu lệnh là gì?",
+  "options": [
+   "Dùng từ khoá `end`",
+   "Bắt buộc dùng dấu `;`",
+   "Dùng dấu `.`",
+   "Xuống dòng"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 8,
+  "chapter": "01_python_tutorial",
+  "order": 6,
+  "lesson": "Python Output — Print Text",
+  "link": "../01_python_tutorial/006_python_output_print_text.ipynb",
+  "question": "Điền vào chỗ trống để in ra dòng chữ `Hello World`:\n```python\n____(\"Hello World\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "print"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 9,
+  "chapter": "01_python_tutorial",
+  "order": 6,
+  "lesson": "Python Output — Print Text",
+  "link": "../01_python_tutorial/006_python_output_print_text.ipynb",
+  "question": "Tham số nào của `print()` cho phép **không** xuống dòng sau khi in?",
+  "options": [
+   "`newline`",
+   "`sep`",
+   "`line`",
+   "`end`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 10,
+  "chapter": "01_python_tutorial",
+  "order": 7,
+  "lesson": "Python Output — Print Numbers",
+  "link": "../01_python_tutorial/007_python_output_print_numbers.ipynb",
+  "question": "Câu lệnh `print(\"5 + 5\")` in ra gì?",
+  "options": [
+   "`55`",
+   "`5 + 5`",
+   "`10`",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "Vì nằm trong dấu nháy nên `\"5 + 5\"` là **văn bản**, Python in ra y nguyên."
+ },
+ {
+  "id": 11,
+  "chapter": "01_python_tutorial",
+  "order": 7,
+  "lesson": "Python Output — Print Numbers",
+  "link": "../01_python_tutorial/007_python_output_print_numbers.ipynb",
+  "question": "Kết quả của `print(\"Age:\", 20)` là gì?",
+  "options": [
+   "Báo lỗi",
+   "`Age:20`",
+   "`Age:, 20`",
+   "`Age: 20`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 12,
+  "chapter": "01_python_tutorial",
+  "order": 8,
+  "lesson": "Python Comments",
+  "link": "../01_python_tutorial/008_python_comments.ipynb",
+  "question": "Ký tự nào bắt đầu một comment trong Python?",
+  "options": [
+   "`/*`",
+   "`#`",
+   "`//`",
+   "`<!--`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 13,
+  "chapter": "01_python_tutorial",
+  "order": 8,
+  "lesson": "Python Comments",
+  "link": "../01_python_tutorial/008_python_comments.ipynb",
+  "question": "Điền vào chỗ trống để biến dòng dưới thành comment:\n```python\n____This is a comment\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "#"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 14,
+  "chapter": "01_python_tutorial",
+  "order": 9,
+  "lesson": "Python Variables",
+  "link": "../01_python_tutorial/009_python_variables.ipynb",
+  "question": "Câu lệnh nào tạo một biến tên `x` có giá trị `5` trong Python?",
+  "options": [
+   "`var x = 5`",
+   "`x = 5`",
+   "`#x = 5`",
+   "`$x = 5`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "Python tạo biến ngay khi gán giá trị, không cần từ khoá `var` hay ký hiệu `$`. Dòng bắt đầu bằng `#` chỉ là comment."
+ },
+ {
+  "id": 15,
+  "chapter": "01_python_tutorial",
+  "order": 9,
+  "lesson": "Python Variables",
+  "link": "../01_python_tutorial/009_python_variables.ipynb",
+  "question": "Điền vào chỗ trống để xem kiểu dữ liệu của biến `x`:\n```python\nx = 5\nprint(____(x))\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "type"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 16,
+  "chapter": "01_python_tutorial",
+  "order": 10,
+  "lesson": "Python - Variable Names",
+  "link": "../01_python_tutorial/010_variable_names.ipynb",
+  "question": "Tên biến nào **không hợp lệ**?",
+  "options": [
+   "`_my_var`",
+   "`myVar2`",
+   "`2my_var`",
+   "`my_var`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Tên biến không được bắt đầu bằng chữ số."
+ },
+ {
+  "id": 17,
+  "chapter": "01_python_tutorial",
+  "order": 10,
+  "lesson": "Python - Variable Names",
+  "link": "../01_python_tutorial/010_variable_names.ipynb",
+  "question": "Tên biến `total_price` được viết theo kiểu nào?",
+  "options": [
+   "Upper Case",
+   "Snake Case",
+   "Pascal Case",
+   "Camel Case"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 18,
+  "chapter": "01_python_tutorial",
+  "order": 11,
+  "lesson": "Python Variables - Assign Multiple Values",
+  "link": "../01_python_tutorial/011_assign_multiple_values.ipynb",
+  "question": "Sau đoạn code `x, y, z = 1, 2, 3`, giá trị của `y` là gì?",
+  "options": [
+   "`2`",
+   "`1`",
+   "`(1, 2, 3)`",
+   "`3`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 19,
+  "chapter": "01_python_tutorial",
+  "order": 11,
+  "lesson": "Python Variables - Assign Multiple Values",
+  "link": "../01_python_tutorial/011_assign_multiple_values.ipynb",
+  "question": "Điền vào chỗ trống để gán giá trị `\"Orange\"` cho cả ba biến:\n```python\nx ____ y ____ z ____ \"Orange\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "="
+  ],
+  "explanation": "Viết đầy đủ: `x = y = z = \"Orange\"`."
+ },
+ {
+  "id": 20,
+  "chapter": "01_python_tutorial",
+  "order": 12,
+  "lesson": "Python - Output Variables",
+  "link": "../01_python_tutorial/012_output_variables.ipynb",
+  "question": "Kết quả của đoạn code sau là gì?\n```python\nx = 5\ny = 10\nprint(x + y)\n```",
+  "options": [
+   "`x + y`",
+   "Báo lỗi",
+   "`15`",
+   "`510`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 21,
+  "chapter": "01_python_tutorial",
+  "order": 12,
+  "lesson": "Python - Output Variables",
+  "link": "../01_python_tutorial/012_output_variables.ipynb",
+  "question": "Đoạn code `print(5 + \"John\")` sẽ:",
+  "options": [
+   "In ra `5 John`",
+   "In ra `5John`",
+   "In ra `John5`",
+   "Báo lỗi `TypeError`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 22,
+  "chapter": "01_python_tutorial",
+  "order": 13,
+  "lesson": "Python - Global Variables",
+  "link": "../01_python_tutorial/013_global_variables.ipynb",
+  "question": "Từ khoá nào cho phép thay đổi biến toàn cục từ bên trong một hàm?",
+  "options": [
+   "`local`",
+   "`global`",
+   "`extern`",
+   "`public`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 23,
+  "chapter": "01_python_tutorial",
+  "order": 13,
+  "lesson": "Python - Global Variables",
+  "link": "../01_python_tutorial/013_global_variables.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nx = \"awesome\"\n\ndef myfunc():\n    x = \"fantastic\"\n\nmyfunc()\nprint(x)\n```",
+  "options": [
+   "`awesome`",
+   "`None`",
+   "Báo lỗi",
+   "`fantastic`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": "Biến `x` trong hàm là biến cục bộ, không ảnh hưởng tới biến toàn cục `x`."
+ },
+ {
+  "id": 24,
+  "chapter": "01_python_tutorial",
+  "order": 14,
+  "lesson": "Python Data Types",
+  "link": "../01_python_tutorial/014_python_data_types.ipynb",
+  "question": "Kiểu dữ liệu của `x = 20.5` là gì?",
+  "options": [
+   "`complex`",
+   "`str`",
+   "`float`",
+   "`int`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 25,
+  "chapter": "01_python_tutorial",
+  "order": 14,
+  "lesson": "Python Data Types",
+  "link": "../01_python_tutorial/014_python_data_types.ipynb",
+  "question": "Kiểu dữ liệu của `x = (\"apple\", \"banana\")` là gì?",
+  "options": [
+   "`dict`",
+   "`list`",
+   "`set`",
+   "`tuple`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "Dấu ngoặc tròn `( )` tạo tuple; ngoặc vuông `[ ]` tạo list; ngoặc nhọn `{ }` tạo set hoặc dict."
+ },
+ {
+  "id": 26,
+  "chapter": "01_python_tutorial",
+  "order": 15,
+  "lesson": "Python Numbers",
+  "link": "../01_python_tutorial/015_python_numbers.ipynb",
+  "question": "Kiểu dữ liệu của `x = 35e3` là gì?",
+  "options": [
+   "`int`",
+   "`complex`",
+   "`float`",
+   "`str`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Số viết dạng khoa học với `e` luôn là `float`: `35e3` = `35000.0`."
+ },
+ {
+  "id": 27,
+  "chapter": "01_python_tutorial",
+  "order": 15,
+  "lesson": "Python Numbers",
+  "link": "../01_python_tutorial/015_python_numbers.ipynb",
+  "question": "`int(2.8)` cho kết quả là gì?",
+  "options": [
+   "`2.8`",
+   "`2`",
+   "Báo lỗi",
+   "`3`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "`int()` cắt bỏ phần thập phân, **không** làm tròn."
+ },
+ {
+  "id": 28,
+  "chapter": "01_python_tutorial",
+  "order": 16,
+  "lesson": "Python Casting",
+  "link": "../01_python_tutorial/016_python_casting.ipynb",
+  "question": "Kết quả của `float(\"3\")` là gì?",
+  "options": [
+   "`\"3.0\"`",
+   "`3.0`",
+   "`3`",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 29,
+  "chapter": "01_python_tutorial",
+  "order": 16,
+  "lesson": "Python Casting",
+  "link": "../01_python_tutorial/016_python_casting.ipynb",
+  "question": "Điền vào chỗ trống để chuyển chuỗi `\"25\"` thành số nguyên:\n```python\nx = ____(\"25\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "int"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 30,
+  "chapter": "01_python_tutorial",
+  "order": 17,
+  "lesson": "Python Strings",
+  "link": "../01_python_tutorial/017_python_strings.ipynb",
+  "question": "Kết quả của đoạn code sau là gì?\n```python\na = \"Hello, World!\"\nprint(a[1])\n```",
+  "options": [
+   "`Hello`",
+   "`H`",
+   "`e`",
+   "`l`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Chỉ số bắt đầu từ `0`, nên `a[0]` là `H` và `a[1]` là `e`."
+ },
+ {
+  "id": 31,
+  "chapter": "01_python_tutorial",
+  "order": 17,
+  "lesson": "Python Strings",
+  "link": "../01_python_tutorial/017_python_strings.ipynb",
+  "question": "Điền vào chỗ trống để in ra độ dài của chuỗi `txt`:\n```python\ntxt = \"Hello World\"\nprint(____(txt))\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "len"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 32,
+  "chapter": "01_python_tutorial",
+  "order": 18,
+  "lesson": "Python - Slicing Strings",
+  "link": "../01_python_tutorial/018_slicing_strings.ipynb",
+  "question": "Kết quả của `\"Hello, World!\"[2:5]` là gì?",
+  "options": [
+   "`ello`",
+   "`el`",
+   "`llo`",
+   "`llo,`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 33,
+  "chapter": "01_python_tutorial",
+  "order": 18,
+  "lesson": "Python - Slicing Strings",
+  "link": "../01_python_tutorial/018_slicing_strings.ipynb",
+  "question": "Điền vào chỗ trống để lấy 3 ký tự **cuối cùng** của chuỗi `txt`:\n```python\ntxt = \"Hello, World!\"\nprint(txt[____:])\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "-3"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 34,
+  "chapter": "01_python_tutorial",
+  "order": 19,
+  "lesson": "Python - Modify Strings",
+  "link": "../01_python_tutorial/019_modify_strings.ipynb",
+  "question": "Phương thức nào xoá khoảng trắng ở đầu và cuối chuỗi?",
+  "options": [
+   "`trim()`",
+   "`strip()`",
+   "`remove()`",
+   "`clean()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 35,
+  "chapter": "01_python_tutorial",
+  "order": 19,
+  "lesson": "Python - Modify Strings",
+  "link": "../01_python_tutorial/019_modify_strings.ipynb",
+  "question": "Điền vào chỗ trống để chuyển chuỗi thành chữ hoa:\n```python\ntxt = \"Hello World\"\ntxt = txt.____()\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "upper"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 36,
+  "chapter": "01_python_tutorial",
+  "order": 20,
+  "lesson": "Python - String Concatenation",
+  "link": "../01_python_tutorial/020_concatenate_strings.ipynb",
+  "question": "Kết quả của `\"Py\" + \"thon\"` là gì?",
+  "options": [
+   "`Python`",
+   "`Py thon`",
+   "`Py+thon`",
+   "Báo lỗi"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 37,
+  "chapter": "01_python_tutorial",
+  "order": 20,
+  "lesson": "Python - String Concatenation",
+  "link": "../01_python_tutorial/020_concatenate_strings.ipynb",
+  "question": "Điền vào chỗ trống để nối hai biến `a` và `b`:\n```python\na = \"Hello\"\nb = \"World\"\nc = a ____ b\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "+"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 38,
+  "chapter": "01_python_tutorial",
+  "order": 21,
+  "lesson": "Python - Format Strings",
+  "link": "../01_python_tutorial/021_format_strings.ipynb",
+  "question": "Điền vào chỗ trống để biến `txt` dùng f-string:\n```python\nage = 36\ntxt = ____\"My name is John, I am {age}\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "f"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 39,
+  "chapter": "01_python_tutorial",
+  "order": 21,
+  "lesson": "Python - Format Strings",
+  "link": "../01_python_tutorial/021_format_strings.ipynb",
+  "question": "`f\"{3.14159:.2f}\"` cho kết quả là gì?",
+  "options": [
+   "`3`",
+   "`3.1`",
+   "`3.14159`",
+   "`3.14`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 40,
+  "chapter": "01_python_tutorial",
+  "order": 22,
+  "lesson": "Python - Escape Characters",
+  "link": "../01_python_tutorial/022_escape_characters.ipynb",
+  "question": "Ký tự thoát nào dùng để xuống dòng?",
+  "options": [
+   "`\\t`",
+   "`\\b`",
+   "`\\\\`",
+   "`\\n`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 41,
+  "chapter": "01_python_tutorial",
+  "order": 22,
+  "lesson": "Python - Escape Characters",
+  "link": "../01_python_tutorial/022_escape_characters.ipynb",
+  "question": "Điền vào chỗ trống để in ra dấu nháy kép bên trong chuỗi:\n```python\ntxt = \"We are the so-called ____Vikings____ from the north.\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "\\\""
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 42,
+  "chapter": "01_python_tutorial",
+  "order": 23,
+  "lesson": "Python - String Methods",
+  "link": "../01_python_tutorial/023_string_methods.ipynb",
+  "question": "`\"banana\".count(\"a\")` trả về bao nhiêu?",
+  "options": [
+   "`2`",
+   "`3`",
+   "`1`",
+   "`6`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 43,
+  "chapter": "01_python_tutorial",
+  "order": 23,
+  "lesson": "Python - String Methods",
+  "link": "../01_python_tutorial/023_string_methods.ipynb",
+  "question": "Phương thức nào trả về `-1` khi không tìm thấy giá trị (thay vì báo lỗi)?",
+  "options": [
+   "`index()`",
+   "`find()`",
+   "`locate()`",
+   "`search()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 44,
+  "chapter": "01_python_tutorial",
+  "order": 24,
+  "lesson": "Python Booleans",
+  "link": "../01_python_tutorial/024_python_booleans.ipynb",
+  "question": "`bool(\"\")` trả về gì?",
+  "options": [
+   "`False`",
+   "`True`",
+   "Báo lỗi",
+   "`None`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": "Chuỗi rỗng được đánh giá là `False`. Nhưng `bool(\" \")` (có một khoảng trắng) lại là `True`!"
+ },
+ {
+  "id": 45,
+  "chapter": "01_python_tutorial",
+  "order": 24,
+  "lesson": "Python Booleans",
+  "link": "../01_python_tutorial/024_python_booleans.ipynb",
+  "question": "Kết quả của `print(10 > 9)` là gì?",
+  "options": [
+   "`True`",
+   "`1`",
+   "`10 > 9`",
+   "`False`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 46,
+  "chapter": "01_python_tutorial",
+  "order": 25,
+  "lesson": "Python Operators",
+  "link": "../01_python_tutorial/025_python_operators.ipynb",
+  "question": "Toán tử `in` thuộc nhóm toán tử nào?",
+  "options": [
+   "Comparison",
+   "Logical",
+   "Membership",
+   "Identity"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 47,
+  "chapter": "01_python_tutorial",
+  "order": 26,
+  "lesson": "Python Arithmetic Operators",
+  "link": "../01_python_tutorial/026_arithmetic_operators.ipynb",
+  "question": "`17 // 5` cho kết quả là gì?",
+  "options": [
+   "`4`",
+   "`3`",
+   "`3.4`",
+   "`2`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 48,
+  "chapter": "01_python_tutorial",
+  "order": 26,
+  "lesson": "Python Arithmetic Operators",
+  "link": "../01_python_tutorial/026_arithmetic_operators.ipynb",
+  "question": "Điền vào chỗ trống để tính phần dư khi chia `10` cho `3`:\n```python\nprint(10 ____ 3)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "%"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 49,
+  "chapter": "01_python_tutorial",
+  "order": 27,
+  "lesson": "Python Assignment Operators",
+  "link": "../01_python_tutorial/027_assignment_operators.ipynb",
+  "question": "Sau đoạn code sau, `x` bằng bao nhiêu?\n```python\nx = 10\nx -= 4\nx *= 2\n```",
+  "options": [
+   "`16`",
+   "`12`",
+   "`20`",
+   "`6`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "`x -= 4` → `6`, sau đó `x *= 2` → `12`."
+ },
+ {
+  "id": 50,
+  "chapter": "01_python_tutorial",
+  "order": 27,
+  "lesson": "Python Assignment Operators",
+  "link": "../01_python_tutorial/027_assignment_operators.ipynb",
+  "question": "Điền vào chỗ trống để cộng thêm `5` vào `x` bằng toán tử gán kết hợp:\n```python\nx = 10\nx ____ 5\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "+="
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 51,
+  "chapter": "01_python_tutorial",
+  "order": 28,
+  "lesson": "Python Ternary Operator",
+  "link": "../01_python_tutorial/028_ternary_operator.ipynb",
+  "question": "Kết quả của `print(\"Yes\" if 5 > 10 else \"No\")` là gì?",
+  "options": [
+   "`Yes`",
+   "Báo lỗi",
+   "`No`",
+   "`True`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 52,
+  "chapter": "01_python_tutorial",
+  "order": 28,
+  "lesson": "Python Ternary Operator",
+  "link": "../01_python_tutorial/028_ternary_operator.ipynb",
+  "question": "Điền vào chỗ trống để hoàn thành biểu thức ternary:\n```python\nx = 10\nresult = \"big\" ____ x > 5 ____ \"small\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "if",
+   "else"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 53,
+  "chapter": "01_python_tutorial",
+  "order": 29,
+  "lesson": "Python Comparison Operators",
+  "link": "../01_python_tutorial/029_comparison_operators.ipynb",
+  "question": "`5 != 5` trả về gì?",
+  "options": [
+   "`True`",
+   "`False`",
+   "Báo lỗi",
+   "`5`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 54,
+  "chapter": "01_python_tutorial",
+  "order": 29,
+  "lesson": "Python Comparison Operators",
+  "link": "../01_python_tutorial/029_comparison_operators.ipynb",
+  "question": "Điền vào chỗ trống để kiểm tra `x` có **bằng** `10` hay không:\n```python\nprint(x ____ 10)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "=="
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 55,
+  "chapter": "01_python_tutorial",
+  "order": 30,
+  "lesson": "Python Logical Operators",
+  "link": "../01_python_tutorial/030_logical_operators.ipynb",
+  "question": "`True and False` trả về gì?",
+  "options": [
+   "`True`",
+   "Báo lỗi",
+   "`False`",
+   "`None`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 56,
+  "chapter": "01_python_tutorial",
+  "order": 30,
+  "lesson": "Python Logical Operators",
+  "link": "../01_python_tutorial/030_logical_operators.ipynb",
+  "question": "Điền vào chỗ trống để biểu thức trả về `True` khi **ít nhất một** điều kiện đúng:\n```python\nx = 5\nprint(x < 3 ____ x > 4)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "or"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 57,
+  "chapter": "01_python_tutorial",
+  "order": 31,
+  "lesson": "Python Identity Operators",
+  "link": "../01_python_tutorial/031_identity_operators.ipynb",
+  "question": "Cho `a = [1, 2]` và `b = [1, 2]`. `a is b` trả về gì?",
+  "options": [
+   "`None`",
+   "`False`",
+   "Báo lỗi",
+   "`True`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "Hai list có cùng nội dung nhưng là hai object khác nhau trong bộ nhớ. `a == b` mới trả về `True`."
+ },
+ {
+  "id": 58,
+  "chapter": "01_python_tutorial",
+  "order": 32,
+  "lesson": "Python Membership Operators",
+  "link": "../01_python_tutorial/032_membership_operators.ipynb",
+  "question": "`\"py\" in \"Python\"` trả về gì?",
+  "options": [
+   "`True`",
+   "`False`",
+   "`\"py\"`",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "`in` phân biệt hoa thường: `\"Python\"` chứa `\"Py\"` chứ không chứa `\"py\"`."
+ },
+ {
+  "id": 59,
+  "chapter": "01_python_tutorial",
+  "order": 32,
+  "lesson": "Python Membership Operators",
+  "link": "../01_python_tutorial/032_membership_operators.ipynb",
+  "question": "Điền vào chỗ trống để kiểm tra `\"apple\"` **không** có trong list:\n```python\nfruits = [\"banana\", \"cherry\"]\nprint(\"apple\" ____ fruits)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "not in"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 60,
+  "chapter": "01_python_tutorial",
+  "order": 33,
+  "lesson": "Python Bitwise Operators",
+  "link": "../01_python_tutorial/033_bitwise_operators.ipynb",
+  "question": "`5 & 3` bằng bao nhiêu? (5 = `101`, 3 = `011`)",
+  "options": [
+   "`7`",
+   "`1`",
+   "`8`",
+   "`6`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 61,
+  "chapter": "01_python_tutorial",
+  "order": 33,
+  "lesson": "Python Bitwise Operators",
+  "link": "../01_python_tutorial/033_bitwise_operators.ipynb",
+  "question": "`1 << 3` bằng bao nhiêu?",
+  "options": [
+   "`8`",
+   "`3`",
+   "`13`",
+   "`4`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 62,
+  "chapter": "01_python_tutorial",
+  "order": 34,
+  "lesson": "Python Operator Precedence",
+  "link": "../01_python_tutorial/034_operator_precedence.ipynb",
+  "question": "`print(2 + 3 * 4)` in ra gì?",
+  "options": [
+   "`9`",
+   "`20`",
+   "`24`",
+   "`14`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 63,
+  "chapter": "01_python_tutorial",
+  "order": 34,
+  "lesson": "Python Operator Precedence",
+  "link": "../01_python_tutorial/034_operator_precedence.ipynb",
+  "question": "Trong các toán tử sau, toán tử nào có độ ưu tiên **cao nhất**?",
+  "options": [
+   "`+`",
+   "`and`",
+   "`**`",
+   "`*`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 64,
+  "chapter": "01_python_tutorial",
+  "order": 35,
+  "lesson": "Python Lists",
+  "link": "../01_python_tutorial/035_python_lists.ipynb",
+  "question": "Cú pháp nào tạo ra một **list**?",
+  "options": [
+   "`{\"a\", \"b\", \"c\"}`",
+   "`(\"a\", \"b\", \"c\")`",
+   "`<\"a\", \"b\", \"c\">`",
+   "`[\"a\", \"b\", \"c\"]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 65,
+  "chapter": "01_python_tutorial",
+  "order": 35,
+  "lesson": "Python Lists",
+  "link": "../01_python_tutorial/035_python_lists.ipynb",
+  "question": "Phát biểu nào **sai** về list?",
+  "options": [
+   "List không cho phép phần tử trùng lặp",
+   "List chứa được nhiều kiểu dữ liệu khác nhau",
+   "List thay đổi được",
+   "List có thứ tự"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 66,
+  "chapter": "01_python_tutorial",
+  "order": 36,
+  "lesson": "Python - Access List Items",
+  "link": "../01_python_tutorial/036_access_list_items.ipynb",
+  "question": "Cho `fruits = [\"apple\", \"banana\", \"cherry\"]`. `fruits[-1]` là gì?",
+  "options": [
+   "Báo lỗi",
+   "`\"cherry\"`",
+   "`\"banana\"`",
+   "`\"apple\"`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 67,
+  "chapter": "01_python_tutorial",
+  "order": 36,
+  "lesson": "Python - Access List Items",
+  "link": "../01_python_tutorial/036_access_list_items.ipynb",
+  "question": "Điền vào chỗ trống để in ra phần tử **thứ hai** của list:\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits[____])\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "1"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 68,
+  "chapter": "01_python_tutorial",
+  "order": 37,
+  "lesson": "Python - Change List Items",
+  "link": "../01_python_tutorial/037_change_list_items.ipynb",
+  "question": "Sau đoạn code sau, list `a` là gì?\n```python\na = [1, 2, 3]\na[0] = 10\n```",
+  "options": [
+   "`[1, 2, 3]`",
+   "`[1, 10, 2, 3]`",
+   "`[10, 1, 2, 3]`",
+   "`[10, 2, 3]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 69,
+  "chapter": "01_python_tutorial",
+  "order": 37,
+  "lesson": "Python - Change List Items",
+  "link": "../01_python_tutorial/037_change_list_items.ipynb",
+  "question": "Điền vào chỗ trống để đổi `\"apple\"` thành `\"kiwi\"`:\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits[____] = \"kiwi\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "0"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 70,
+  "chapter": "01_python_tutorial",
+  "order": 38,
+  "lesson": "Python - Add List Items",
+  "link": "../01_python_tutorial/038_add_list_items.ipynb",
+  "question": "Phương thức nào thêm một phần tử vào **cuối** list?",
+  "options": [
+   "`insert()`",
+   "`add()`",
+   "`append()`",
+   "`push()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 71,
+  "chapter": "01_python_tutorial",
+  "order": 38,
+  "lesson": "Python - Add List Items",
+  "link": "../01_python_tutorial/038_add_list_items.ipynb",
+  "question": "Điền vào chỗ trống để thêm tất cả phần tử của `b` vào `a`:\n```python\na = [1, 2]\nb = [3, 4]\na.____(b)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "extend"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 72,
+  "chapter": "01_python_tutorial",
+  "order": 39,
+  "lesson": "Python - Remove List Items",
+  "link": "../01_python_tutorial/039_remove_list_items.ipynb",
+  "question": "`pop()` không có tham số sẽ xoá phần tử nào?",
+  "options": [
+   "Phần tử cuối cùng",
+   "Phần tử đầu tiên",
+   "Tất cả phần tử",
+   "Phần tử ở giữa"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 73,
+  "chapter": "01_python_tutorial",
+  "order": 39,
+  "lesson": "Python - Remove List Items",
+  "link": "../01_python_tutorial/039_remove_list_items.ipynb",
+  "question": "Điền vào chỗ trống để xoá `\"banana\"` khỏi list:\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.____(\"banana\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "remove"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 74,
+  "chapter": "01_python_tutorial",
+  "order": 40,
+  "lesson": "Python - Loop Lists",
+  "link": "../01_python_tutorial/040_loop_lists.ipynb",
+  "question": "Hàm nào trả về **cả chỉ số lẫn giá trị** khi duyệt list?",
+  "options": [
+   "`len()`",
+   "`enumerate()`",
+   "`zip()`",
+   "`range()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 75,
+  "chapter": "01_python_tutorial",
+  "order": 40,
+  "lesson": "Python - Loop Lists",
+  "link": "../01_python_tutorial/040_loop_lists.ipynb",
+  "question": "Điền vào chỗ trống để duyệt qua từng phần tử của list:\n```python\nfruits = [\"apple\", \"banana\", \"cherry\"]\n____ x ____ fruits:\n    print(x)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "for",
+   "in"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 76,
+  "chapter": "01_python_tutorial",
+  "order": 41,
+  "lesson": "Python - List Comprehension",
+  "link": "../01_python_tutorial/041_list_comprehension.ipynb",
+  "question": "Kết quả của `[x * 2 for x in range(4)]` là gì?",
+  "options": [
+   "`[0, 1, 2, 3]`",
+   "`[0, 2, 4, 6, 8]`",
+   "`[0, 2, 4, 6]`",
+   "`[2, 4, 6, 8]`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 77,
+  "chapter": "01_python_tutorial",
+  "order": 41,
+  "lesson": "Python - List Comprehension",
+  "link": "../01_python_tutorial/041_list_comprehension.ipynb",
+  "question": "Điền vào chỗ trống để chỉ giữ lại các số lớn hơn `3`:\n```python\nnumbers = [1, 5, 2, 8, 3]\nresult = [n for n in numbers ____ n > 3]\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "if"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 78,
+  "chapter": "01_python_tutorial",
+  "order": 42,
+  "lesson": "Python - Sort Lists",
+  "link": "../01_python_tutorial/042_sort_lists.ipynb",
+  "question": "Làm sao sắp xếp list `nums` theo thứ tự **giảm dần**?",
+  "options": [
+   "`nums.sort(desc=True)`",
+   "`nums.sort(-1)`",
+   "`nums.sort(reverse=True)`",
+   "`nums.reverse(sort=True)`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 79,
+  "chapter": "01_python_tutorial",
+  "order": 42,
+  "lesson": "Python - Sort Lists",
+  "link": "../01_python_tutorial/042_sort_lists.ipynb",
+  "question": "Sau `x = [3, 1, 2]` và `y = sorted(x)`, giá trị của `x` là gì?",
+  "options": [
+   "`[3, 2, 1]`",
+   "`[1, 2, 3]`",
+   "`[3, 1, 2]`",
+   "`None`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "`sorted()` trả về list mới, không thay đổi list gốc."
+ },
+ {
+  "id": 80,
+  "chapter": "01_python_tutorial",
+  "order": 43,
+  "lesson": "Python - Copy Lists",
+  "link": "../01_python_tutorial/043_copy_lists.ipynb",
+  "question": "Sau đoạn code sau, `b` là gì?\n```python\na = [1, 2]\nb = a\na.append(3)\n```",
+  "options": [
+   "`[3]`",
+   "`[1, 2]`",
+   "Báo lỗi",
+   "`[1, 2, 3]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "`b = a` không sao chép mà chỉ tạo thêm một tên cho cùng một list."
+ },
+ {
+  "id": 81,
+  "chapter": "01_python_tutorial",
+  "order": 43,
+  "lesson": "Python - Copy Lists",
+  "link": "../01_python_tutorial/043_copy_lists.ipynb",
+  "question": "Điền vào chỗ trống để tạo bản sao của `fruits`:\n```python\nfruits = [\"apple\", \"banana\"]\nmylist = fruits.____()\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "copy"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 82,
+  "chapter": "01_python_tutorial",
+  "order": 44,
+  "lesson": "Python - Join Lists",
+  "link": "../01_python_tutorial/044_join_lists.ipynb",
+  "question": "`[1, 2] + [3]` cho kết quả là gì?",
+  "options": [
+   "`[1, 2, [3]]`",
+   "Báo lỗi",
+   "`[1, 2, 3]`",
+   "`[4, 5]`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 83,
+  "chapter": "01_python_tutorial",
+  "order": 45,
+  "lesson": "Python - List Methods",
+  "link": "../01_python_tutorial/045_list_methods.ipynb",
+  "question": "Phương thức nào trả về **số lần xuất hiện** của một giá trị trong list?",
+  "options": [
+   "`count()`",
+   "`find()`",
+   "`len()`",
+   "`index()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 84,
+  "chapter": "01_python_tutorial",
+  "order": 45,
+  "lesson": "Python - List Methods",
+  "link": "../01_python_tutorial/045_list_methods.ipynb",
+  "question": "`[1, 2, 3].reverse()` trả về gì?",
+  "options": [
+   "`[3, 2, 1]`",
+   "Báo lỗi",
+   "`[1, 2, 3]`",
+   "`None`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 85,
+  "chapter": "01_python_tutorial",
+  "order": 46,
+  "lesson": "Python Tuples",
+  "link": "../01_python_tutorial/046_python_tuples.ipynb",
+  "question": "Cú pháp nào tạo ra tuple có **một** phần tử?",
+  "options": [
+   "`(\"apple\")`",
+   "`[\"apple\"]`",
+   "`(\"apple\",)`",
+   "`tuple(\"apple\")`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "`tuple(\"apple\")` sẽ tạo tuple 5 phần tử `('a', 'p', 'p', 'l', 'e')` vì chuỗi là iterable."
+ },
+ {
+  "id": 86,
+  "chapter": "01_python_tutorial",
+  "order": 46,
+  "lesson": "Python Tuples",
+  "link": "../01_python_tutorial/046_python_tuples.ipynb",
+  "question": "Phát biểu nào đúng về tuple?",
+  "options": [
+   "Tuple không cho phép phần tử trùng lặp",
+   "Tuple được tạo bằng dấu ngoặc vuông",
+   "Tuple không có thứ tự",
+   "Tuple không thể thay đổi sau khi tạo"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 87,
+  "chapter": "01_python_tutorial",
+  "order": 47,
+  "lesson": "Python - Access Tuple Items",
+  "link": "../01_python_tutorial/047_access_tuples.ipynb",
+  "question": "Cho `t = (10, 20, 30, 40)`. `t[1:3]` là gì?",
+  "options": [
+   "`(20, 30, 40)`",
+   "`(10, 20, 30)`",
+   "`(20, 30)`",
+   "`[20, 30]`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Cắt một tuple cho ra **tuple** mới, không phải list."
+ },
+ {
+  "id": 88,
+  "chapter": "01_python_tutorial",
+  "order": 48,
+  "lesson": "Python - Update Tuples",
+  "link": "../01_python_tutorial/048_update_tuples.ipynb",
+  "question": "Điều gì xảy ra khi chạy `t = (1, 2, 3)` rồi `t[0] = 10`?",
+  "options": [
+   "`t` trở thành `(10, 2, 3)`",
+   "Báo lỗi `TypeError`",
+   "`t` trở thành `(10, 1, 2, 3)`",
+   "Không có gì thay đổi, không báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 89,
+  "chapter": "01_python_tutorial",
+  "order": 49,
+  "lesson": "Python - Unpack Tuples",
+  "link": "../01_python_tutorial/049_unpack_tuples.ipynb",
+  "question": "Sau `a, *b = (1, 2, 3, 4)`, giá trị của `b` là gì?",
+  "options": [
+   "`4`",
+   "`(2, 3, 4)`",
+   "`2`",
+   "`[2, 3, 4]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "Biến có dấu `*` luôn nhận về một **list**."
+ },
+ {
+  "id": 90,
+  "chapter": "01_python_tutorial",
+  "order": 50,
+  "lesson": "Python - Loop Tuples",
+  "link": "../01_python_tutorial/050_loop_tuples.ipynb",
+  "question": "Điền vào chỗ trống để duyệt tuple theo chỉ số:\n```python\nt = (\"a\", \"b\", \"c\")\nfor i in ____(len(t)):\n    print(t[i])\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "range"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 91,
+  "chapter": "01_python_tutorial",
+  "order": 51,
+  "lesson": "Python - Join Tuples",
+  "link": "../01_python_tutorial/051_join_tuples.ipynb",
+  "question": "`(1, 2) * 2` cho kết quả là gì?",
+  "options": [
+   "Báo lỗi",
+   "`((1, 2), (1, 2))`",
+   "`(1, 2, 1, 2)`",
+   "`(2, 4)`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 92,
+  "chapter": "01_python_tutorial",
+  "order": 52,
+  "lesson": "Python - Tuple Methods",
+  "link": "../01_python_tutorial/052_tuple_methods.ipynb",
+  "question": "Tuple có bao nhiêu phương thức có sẵn?",
+  "options": [
+   "2",
+   "11",
+   "1",
+   "0"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": "Chỉ có `count()` và `index()` — vì tuple không thay đổi được nên không có `append()`, `remove()`, `sort()`…"
+ },
+ {
+  "id": 93,
+  "chapter": "01_python_tutorial",
+  "order": 53,
+  "lesson": "Python Sets",
+  "link": "../01_python_tutorial/053_python_sets.ipynb",
+  "question": "`len({\"a\", \"b\", \"a\", \"c\"})` bằng bao nhiêu?",
+  "options": [
+   "2",
+   "3",
+   "4",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 94,
+  "chapter": "01_python_tutorial",
+  "order": 53,
+  "lesson": "Python Sets",
+  "link": "../01_python_tutorial/053_python_sets.ipynb",
+  "question": "Cú pháp nào tạo **set rỗng**?",
+  "options": [
+   "`{}`",
+   "`()`",
+   "`[]`",
+   "`set()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 95,
+  "chapter": "01_python_tutorial",
+  "order": 54,
+  "lesson": "Python - Access Set Items",
+  "link": "../01_python_tutorial/054_access_set_items.ipynb",
+  "question": "Cho `s = {\"a\", \"b\", \"c\"}`. Câu lệnh nào **báo lỗi**?",
+  "options": [
+   "`for x in s: print(x)`",
+   "`s[0]`",
+   "`len(s)`",
+   "`\"a\" in s`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 96,
+  "chapter": "01_python_tutorial",
+  "order": 55,
+  "lesson": "Python - Add Set Items",
+  "link": "../01_python_tutorial/055_add_set_items.ipynb",
+  "question": "Phương thức nào thêm **một** phần tử vào set?",
+  "options": [
+   "`append()`",
+   "`push()`",
+   "`add()`",
+   "`insert()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 97,
+  "chapter": "01_python_tutorial",
+  "order": 55,
+  "lesson": "Python - Add Set Items",
+  "link": "../01_python_tutorial/055_add_set_items.ipynb",
+  "question": "Điền vào chỗ trống để thêm tất cả phần tử của list `b` vào set `a`:\n```python\na = {1, 2}\nb = [3, 4]\na.____(b)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "update"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 98,
+  "chapter": "01_python_tutorial",
+  "order": 56,
+  "lesson": "Python - Remove Set Items",
+  "link": "../01_python_tutorial/056_remove_set_items.ipynb",
+  "question": "Phương thức nào xoá phần tử khỏi set **mà không báo lỗi** khi phần tử không tồn tại?",
+  "options": [
+   "`discard()`",
+   "`pop()`",
+   "`delete()`",
+   "`remove()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 99,
+  "chapter": "01_python_tutorial",
+  "order": 57,
+  "lesson": "Python - Loop Sets",
+  "link": "../01_python_tutorial/057_loop_sets.ipynb",
+  "question": "Khi duyệt một set bằng `for`, thứ tự phần tử là:",
+  "options": [
+   "Luôn theo thứ tự tăng dần",
+   "Không được đảm bảo",
+   "Luôn theo thứ tự thêm vào",
+   "Luôn theo thứ tự giảm dần"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 100,
+  "chapter": "01_python_tutorial",
+  "order": 58,
+  "lesson": "Python - Join Sets",
+  "link": "../01_python_tutorial/058_join_sets.ipynb",
+  "question": "`{1, 2, 3} & {2, 3, 4}` cho kết quả là gì?",
+  "options": [
+   "`{2, 3}`",
+   "`{1}`",
+   "`{1, 2, 3, 4}`",
+   "`{1, 4}`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 101,
+  "chapter": "01_python_tutorial",
+  "order": 58,
+  "lesson": "Python - Join Sets",
+  "link": "../01_python_tutorial/058_join_sets.ipynb",
+  "question": "Toán tử nào tương ứng với phương thức `union()`?",
+  "options": [
+   "`|`",
+   "`-`",
+   "`^`",
+   "`&`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 102,
+  "chapter": "01_python_tutorial",
+  "order": 59,
+  "lesson": "Python frozenset",
+  "link": "../01_python_tutorial/059_frozenset.ipynb",
+  "question": "Phát biểu nào đúng về `frozenset`?",
+  "options": [
+   "Có thể thêm phần tử bằng `add()`",
+   "Bất biến và có thể dùng làm key của dictionary",
+   "Cho phép phần tử trùng lặp",
+   "Có thứ tự và đánh chỉ số được"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 103,
+  "chapter": "01_python_tutorial",
+  "order": 60,
+  "lesson": "Python - Set Methods",
+  "link": "../01_python_tutorial/060_set_methods.ipynb",
+  "question": "`{1, 2}.issubset({1, 2, 3})` trả về gì?",
+  "options": [
+   "`False`",
+   "`True`",
+   "`{3}`",
+   "`{1, 2}`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 104,
+  "chapter": "01_python_tutorial",
+  "order": 61,
+  "lesson": "Python Dictionaries",
+  "link": "../01_python_tutorial/061_python_dictionaries.ipynb",
+  "question": "Cú pháp nào tạo ra một **dictionary**?",
+  "options": [
+   "`(\"name\", \"John\")`",
+   "`{\"name\", \"John\"}`",
+   "`{\"name\": \"John\"}`",
+   "`[\"name\", \"John\"]`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "`{\"name\", \"John\"}` (không có dấu `:`) là một **set**."
+ },
+ {
+  "id": 105,
+  "chapter": "01_python_tutorial",
+  "order": 61,
+  "lesson": "Python Dictionaries",
+  "link": "../01_python_tutorial/061_python_dictionaries.ipynb",
+  "question": "Điền vào chỗ trống để in ra giá trị của key `\"model\"`:\n```python\ncar = {\"brand\": \"Ford\", \"model\": \"Mustang\"}\nprint(car____)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "[\"model\"]"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 106,
+  "chapter": "01_python_tutorial",
+  "order": 62,
+  "lesson": "Python - Access Dictionary Items",
+  "link": "../01_python_tutorial/062_access_dictionary_items.ipynb",
+  "question": "`{\"a\": 1}.get(\"b\")` trả về gì?",
+  "options": [
+   "`0`",
+   "`None`",
+   "`\"b\"`",
+   "Báo lỗi `KeyError`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 107,
+  "chapter": "01_python_tutorial",
+  "order": 62,
+  "lesson": "Python - Access Dictionary Items",
+  "link": "../01_python_tutorial/062_access_dictionary_items.ipynb",
+  "question": "Phương thức nào trả về các cặp `(key, value)`?",
+  "options": [
+   "`keys()`",
+   "`items()`",
+   "`pairs()`",
+   "`values()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 108,
+  "chapter": "01_python_tutorial",
+  "order": 63,
+  "lesson": "Python - Change Dictionary Items",
+  "link": "../01_python_tutorial/063_change_dictionary_items.ipynb",
+  "question": "Sau đoạn code sau, `car[\"year\"]` bằng bao nhiêu?\n```python\ncar = {\"brand\": \"Ford\", \"year\": 1964}\ncar.update({\"year\": 2020})\n```",
+  "options": [
+   "Báo lỗi",
+   "`1964`",
+   "`[1964, 2020]`",
+   "`2020`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 109,
+  "chapter": "01_python_tutorial",
+  "order": 64,
+  "lesson": "Python - Add Dictionary Items",
+  "link": "../01_python_tutorial/064_add_dictionary_items.ipynb",
+  "question": "Điền vào chỗ trống để thêm key `\"color\"` với giá trị `\"red\"`:\n```python\ncar = {\"brand\": \"Ford\"}\ncar____ = \"red\"\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "[\"color\"]"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 110,
+  "chapter": "01_python_tutorial",
+  "order": 65,
+  "lesson": "Python - Remove Dictionary Items",
+  "link": "../01_python_tutorial/065_remove_dictionary_items.ipynb",
+  "question": "Phương thức nào xoá phần tử **được thêm vào cuối cùng** của dictionary?",
+  "options": [
+   "`popitem()`",
+   "`pop()`",
+   "`discard()`",
+   "`remove()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 111,
+  "chapter": "01_python_tutorial",
+  "order": 66,
+  "lesson": "Python - Loop Dictionaries",
+  "link": "../01_python_tutorial/066_loop_dictionaries.ipynb",
+  "question": "Khi viết `for x in mydict:`, biến `x` nhận giá trị gì?",
+  "options": [
+   "Chỉ số 0, 1, 2…",
+   "Các key",
+   "Các tuple `(key, value)`",
+   "Các value"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 112,
+  "chapter": "01_python_tutorial",
+  "order": 66,
+  "lesson": "Python - Loop Dictionaries",
+  "link": "../01_python_tutorial/066_loop_dictionaries.ipynb",
+  "question": "Điền vào chỗ trống để duyệt cả key và value:\n```python\nfor k, v in car.____():\n    print(k, v)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "items"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 113,
+  "chapter": "01_python_tutorial",
+  "order": 67,
+  "lesson": "Python - Copy Dictionaries",
+  "link": "../01_python_tutorial/067_copy_dictionaries.ipynb",
+  "question": "Cách nào **không** tạo ra bản sao độc lập của dictionary `d`?",
+  "options": [
+   "`d.copy()`",
+   "`copy.deepcopy(d)`",
+   "`dict(d)`",
+   "`d2 = d`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 114,
+  "chapter": "01_python_tutorial",
+  "order": 68,
+  "lesson": "Python - Nested Dictionaries",
+  "link": "../01_python_tutorial/068_nested_dictionaries.ipynb",
+  "question": "Cho `fam = {\"c1\": {\"name\": \"Emil\"}}`. Lệnh nào in ra `Emil`?",
+  "options": [
+   "`print(fam[\"c1\", \"name\"])`",
+   "`print(fam.c1.name)`",
+   "`print(fam[\"c1\"][\"name\"])`",
+   "`print(fam[\"name\"])`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 115,
+  "chapter": "01_python_tutorial",
+  "order": 69,
+  "lesson": "Python - Dictionary Methods",
+  "link": "../01_python_tutorial/069_dictionary_methods.ipynb",
+  "question": "`dict.fromkeys([\"a\", \"b\"], 0)` tạo ra gì?",
+  "options": [
+   "`{\"a\": \"b\"}`",
+   "`[\"a\", \"b\", 0]`",
+   "`{0: [\"a\", \"b\"]}`",
+   "`{\"a\": 0, \"b\": 0}`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 116,
+  "chapter": "01_python_tutorial",
+  "order": 70,
+  "lesson": "Python If Statement",
+  "link": "../01_python_tutorial/070_python_if.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nx = 0\nif x:\n    print(\"A\")\nprint(\"B\")\n```",
+  "options": [
+   "`A` rồi `B`",
+   "Chỉ `B`",
+   "Chỉ `A`",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "`0` được đánh giá là `False`, nên `print(\"A\")` bị bỏ qua."
+ },
+ {
+  "id": 117,
+  "chapter": "01_python_tutorial",
+  "order": 70,
+  "lesson": "Python If Statement",
+  "link": "../01_python_tutorial/070_python_if.ipynb",
+  "question": "Điền vào chỗ trống để in \"Hello\" nếu `5` lớn hơn `2`:\n```python\n____ 5 > 2____\n    print(\"Hello\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "if",
+   ":"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 118,
+  "chapter": "01_python_tutorial",
+  "order": 71,
+  "lesson": "Python Elif Statement",
+  "link": "../01_python_tutorial/071_python_elif.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nx = 85\nif x >= 60:\n    print(\"D\")\nelif x >= 80:\n    print(\"B\")\n```",
+  "options": [
+   "Không in gì",
+   "`B`",
+   "`D`",
+   "`D` rồi `B`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Điều kiện đầu `x >= 60` đã đúng nên Python dừng ở đó — đây là lỗi thứ tự điều kiện!"
+ },
+ {
+  "id": 119,
+  "chapter": "01_python_tutorial",
+  "order": 72,
+  "lesson": "Python Else Statement",
+  "link": "../01_python_tutorial/072_python_else.ipynb",
+  "question": "Điền vào chỗ trống để in \"No\" khi điều kiện sai:\n```python\nif 5 > 10:\n    print(\"Yes\")\n____:\n    print(\"No\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "else"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 120,
+  "chapter": "01_python_tutorial",
+  "order": 73,
+  "lesson": "Python Shorthand If",
+  "link": "../01_python_tutorial/073_shorthand_if.ipynb",
+  "question": "Sau `x = 10 if 3 > 5 else 20`, giá trị của `x` là gì?",
+  "options": [
+   "Báo lỗi",
+   "`20`",
+   "`True`",
+   "`10`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 121,
+  "chapter": "01_python_tutorial",
+  "order": 74,
+  "lesson": "Python Logical Operators (in If)",
+  "link": "../01_python_tutorial/074_if_logical_operators.ipynb",
+  "question": "Biểu thức `if day == \"Sat\" or \"Sun\":` có vấn đề gì?",
+  "options": [
+   "Không có vấn đề gì",
+   "Chỉ đúng khi `day` là `\"Sun\"`",
+   "Báo lỗi cú pháp",
+   "Luôn được đánh giá là `True` vì chuỗi `\"Sun\"` là truthy"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "Python hiểu là `(day == \"Sat\") or (\"Sun\")`. Viết đúng: `day == \"Sat\" or day == \"Sun\"`, hoặc `day in (\"Sat\", \"Sun\")`."
+ },
+ {
+  "id": 122,
+  "chapter": "01_python_tutorial",
+  "order": 75,
+  "lesson": "Python Nested If",
+  "link": "../01_python_tutorial/075_nested_if.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nx = 15\nif x > 10:\n    if x > 20:\n        print(\"A\")\n    else:\n        print(\"B\")\n```",
+  "options": [
+   "Không in gì",
+   "`A`",
+   "`B`",
+   "`A` rồi `B`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 123,
+  "chapter": "01_python_tutorial",
+  "order": 76,
+  "lesson": "Python Pass Statement",
+  "link": "../01_python_tutorial/076_pass_statement.ipynb",
+  "question": "Từ khoá nào dùng để tạo một khối lệnh trống mà không gây lỗi?",
+  "options": [
+   "`continue`",
+   "`None`",
+   "`break`",
+   "`pass`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 124,
+  "chapter": "01_python_tutorial",
+  "order": 77,
+  "lesson": "Python Match",
+  "link": "../01_python_tutorial/077_python_match.ipynb",
+  "question": "Ký hiệu nào dùng làm `case` mặc định trong câu lệnh `match`?",
+  "options": [
+   "`_`",
+   "`else`",
+   "`default`",
+   "`*`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 125,
+  "chapter": "01_python_tutorial",
+  "order": 77,
+  "lesson": "Python Match",
+  "link": "../01_python_tutorial/077_python_match.ipynb",
+  "question": "Điền vào chỗ trống để một `case` khớp cả `6` và `7`:\n```python\nmatch day:\n    case 6 ____ 7:\n        print(\"Weekend\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "|"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 126,
+  "chapter": "01_python_tutorial",
+  "order": 78,
+  "lesson": "Python While Loops",
+  "link": "../01_python_tutorial/078_python_while_loops.ipynb",
+  "question": "Câu lệnh nào **dừng hẳn** vòng lặp?",
+  "options": [
+   "`break`",
+   "`pass`",
+   "`continue`",
+   "`stop`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 127,
+  "chapter": "01_python_tutorial",
+  "order": 78,
+  "lesson": "Python While Loops",
+  "link": "../01_python_tutorial/078_python_while_loops.ipynb",
+  "question": "Điền vào chỗ trống để in `i` khi `i` còn nhỏ hơn 6:\n```python\ni = 1\n____ i < 6:\n    print(i)\n    i += 1\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "while"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 128,
+  "chapter": "01_python_tutorial",
+  "order": 79,
+  "lesson": "Python For Loops",
+  "link": "../01_python_tutorial/079_python_for_loops.ipynb",
+  "question": "`range(2, 6)` tạo ra những số nào?",
+  "options": [
+   "3, 4, 5, 6",
+   "2, 3, 4, 5, 6",
+   "2, 3, 4, 5",
+   "2, 6"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 129,
+  "chapter": "01_python_tutorial",
+  "order": 79,
+  "lesson": "Python For Loops",
+  "link": "../01_python_tutorial/079_python_for_loops.ipynb",
+  "question": "Điền vào chỗ trống để duyệt qua list `fruits`:\n```python\nfruits = [\"apple\", \"banana\"]\n____ x ____ fruits:\n    print(x)\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "for",
+   "in"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 130,
+  "chapter": "01_python_tutorial",
+  "order": 80,
+  "lesson": "Python Functions",
+  "link": "../01_python_tutorial/080_python_functions.ipynb",
+  "question": "Từ khoá nào dùng để định nghĩa hàm?",
+  "options": [
+   "`function`",
+   "`func`",
+   "`def`",
+   "`define`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 131,
+  "chapter": "01_python_tutorial",
+  "order": 80,
+  "lesson": "Python Functions",
+  "link": "../01_python_tutorial/080_python_functions.ipynb",
+  "question": "Điền vào chỗ trống để gọi hàm `my_function`:\n```python\ndef my_function():\n    print(\"Hello\")\n\n____\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "my_function()"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 132,
+  "chapter": "01_python_tutorial",
+  "order": 81,
+  "lesson": "Python Function Arguments",
+  "link": "../01_python_tutorial/081_python_arguments.ipynb",
+  "question": "Với `def f(a, b=2): return a + b`, `f(5)` trả về gì?",
+  "options": [
+   "`2`",
+   "`7`",
+   "Báo lỗi vì thiếu đối số",
+   "`5`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 133,
+  "chapter": "01_python_tutorial",
+  "order": 81,
+  "lesson": "Python Function Arguments",
+  "link": "../01_python_tutorial/081_python_arguments.ipynb",
+  "question": "Lời gọi nào **báo lỗi** với `def f(animal, name): ...`?",
+  "options": [
+   "`f(name=\"Buddy\", animal=\"dog\")`",
+   "`f(\"dog\", name=\"Buddy\")`",
+   "`f(name=\"Buddy\", \"dog\")`",
+   "`f(\"dog\", \"Buddy\")`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Đối số vị trí không được đứng sau đối số từ khoá."
+ },
+ {
+  "id": 134,
+  "chapter": "01_python_tutorial",
+  "order": 82,
+  "lesson": "Python *args and **kwargs",
+  "link": "../01_python_tutorial/082_python_args_kwargs.ipynb",
+  "question": "Bên trong hàm `def f(*args)`, `args` có kiểu dữ liệu gì?",
+  "options": [
+   "`set`",
+   "`list`",
+   "`dict`",
+   "`tuple`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 135,
+  "chapter": "01_python_tutorial",
+  "order": 82,
+  "lesson": "Python *args and **kwargs",
+  "link": "../01_python_tutorial/082_python_args_kwargs.ipynb",
+  "question": "Điền vào chỗ trống để hàm nhận số lượng đối số từ khoá tuỳ ý:\n```python\ndef my_function(____kid):\n    print(kid[\"fname\"])\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "**"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 136,
+  "chapter": "01_python_tutorial",
+  "order": 83,
+  "lesson": "Python Scope",
+  "link": "../01_python_tutorial/083_python_scope.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nx = 5\ndef f():\n    x = 10\nf()\nprint(x)\n```",
+  "options": [
+   "`10`",
+   "`5`",
+   "Báo lỗi",
+   "`None`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 137,
+  "chapter": "01_python_tutorial",
+  "order": 83,
+  "lesson": "Python Scope",
+  "link": "../01_python_tutorial/083_python_scope.ipynb",
+  "question": "Trong quy tắc LEGB, chữ **E** là viết tắt của gì?",
+  "options": [
+   "Enclosing",
+   "External",
+   "Exception",
+   "Environment"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 138,
+  "chapter": "01_python_tutorial",
+  "order": 84,
+  "lesson": "Python Decorators",
+  "link": "../01_python_tutorial/084_python_decorators.ipynb",
+  "question": "`@my_decorator` đặt trên `def f():` tương đương với câu lệnh nào?",
+  "options": [
+   "`my_decorator(f())`",
+   "`my_decorator = f(my_decorator)`",
+   "`f = my_decorator()`",
+   "`f = my_decorator(f)`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 139,
+  "chapter": "01_python_tutorial",
+  "order": 85,
+  "lesson": "Python Lambda",
+  "link": "../01_python_tutorial/085_python_lambda.ipynb",
+  "question": "`(lambda a, b: a * b)(3, 4)` trả về gì?",
+  "options": [
+   "`12`",
+   "`7`",
+   "Báo lỗi",
+   "`34`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 140,
+  "chapter": "01_python_tutorial",
+  "order": 85,
+  "lesson": "Python Lambda",
+  "link": "../01_python_tutorial/085_python_lambda.ipynb",
+  "question": "Điền vào chỗ trống để tạo lambda cộng 10 vào `a`:\n```python\nx = ____ a: a + 10\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "lambda"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 141,
+  "chapter": "01_python_tutorial",
+  "order": 86,
+  "lesson": "Python Recursion",
+  "link": "../01_python_tutorial/086_python_recursion.ipynb",
+  "question": "Thành phần nào **bắt buộc** phải có để hàm đệ quy không chạy mãi?",
+  "options": [
+   "Vòng lặp `for`",
+   "Biến toàn cục",
+   "Câu lệnh `pass`",
+   "Base case (điều kiện dừng)"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 142,
+  "chapter": "01_python_tutorial",
+  "order": 87,
+  "lesson": "Python Generators",
+  "link": "../01_python_tutorial/087_python_generators.ipynb",
+  "question": "Từ khoá nào biến một hàm thành generator?",
+  "options": [
+   "`return`",
+   "`async`",
+   "`yield`",
+   "`generate`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 143,
+  "chapter": "01_python_tutorial",
+  "order": 87,
+  "lesson": "Python Generators",
+  "link": "../01_python_tutorial/087_python_generators.ipynb",
+  "question": "`(x * 2 for x in range(3))` tạo ra gì?",
+  "options": [
+   "Tuple `(0, 2, 4)`",
+   "Một generator object",
+   "Báo lỗi cú pháp",
+   "List `[0, 2, 4]`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": "Ngoặc tròn tạo **generator expression**, không phải tuple. Dùng `list(...)` để lấy hết giá trị."
+ },
+ {
+  "id": 144,
+  "chapter": "01_python_tutorial",
+  "order": 88,
+  "lesson": "Python Range",
+  "link": "../01_python_tutorial/088_python_range.ipynb",
+  "question": "`list(range(1, 10, 3))` cho kết quả là gì?",
+  "options": [
+   "`[3, 6, 9]`",
+   "`[1, 4, 7, 10]`",
+   "`[1, 3, 6, 9]`",
+   "`[1, 4, 7]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 145,
+  "chapter": "01_python_tutorial",
+  "order": 89,
+  "lesson": "Python Arrays",
+  "link": "../01_python_tutorial/089_python_arrays.ipynb",
+  "question": "Trong Python, kiểu dữ liệu nào thường được dùng làm \"mảng\"?",
+  "options": [
+   "`list`",
+   "`array` (có sẵn, không cần import)",
+   "`dict`",
+   "`set`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 146,
+  "chapter": "01_python_tutorial",
+  "order": 90,
+  "lesson": "Python Iterators",
+  "link": "../01_python_tutorial/090_python_iterators.ipynb",
+  "question": "Hàm nào dùng để lấy **phần tử tiếp theo** từ một iterator?",
+  "options": [
+   "`next()`",
+   "`iter()`",
+   "`get()`",
+   "`yield()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 147,
+  "chapter": "01_python_tutorial",
+  "order": 91,
+  "lesson": "Python Modules",
+  "link": "../01_python_tutorial/091_python_modules.ipynb",
+  "question": "Câu lệnh nào import module `mymodule` với bí danh `mx`?",
+  "options": [
+   "`import mymodule = mx`",
+   "`from mymodule as mx`",
+   "`import mymodule as mx`",
+   "`import mx from mymodule`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 148,
+  "chapter": "01_python_tutorial",
+  "order": 91,
+  "lesson": "Python Modules",
+  "link": "../01_python_tutorial/091_python_modules.ipynb",
+  "question": "Điền vào chỗ trống để chỉ import `person1` từ `mymodule`:\n```python\n____ mymodule ____ person1\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "from",
+   "import"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 149,
+  "chapter": "01_python_tutorial",
+  "order": 92,
+  "lesson": "Python Dates",
+  "link": "../01_python_tutorial/092_python_dates.ipynb",
+  "question": "Mã định dạng nào in ra **năm đầy đủ** (ví dụ `2026`)?",
+  "options": [
+   "`%j`",
+   "`%y`",
+   "`%Y`",
+   "`%C`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 150,
+  "chapter": "01_python_tutorial",
+  "order": 93,
+  "lesson": "Python Math",
+  "link": "../01_python_tutorial/093_python_math.ipynb",
+  "question": "`math.ceil(1.2)` trả về gì?",
+  "options": [
+   "`1`",
+   "`2`",
+   "`1.2`",
+   "`1.0`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 151,
+  "chapter": "01_python_tutorial",
+  "order": 94,
+  "lesson": "Python JSON",
+  "link": "../01_python_tutorial/094_python_json.ipynb",
+  "question": "Hàm nào chuyển **chuỗi JSON** thành object Python?",
+  "options": [
+   "`json.read()`",
+   "`json.parse()`",
+   "`json.loads()`",
+   "`json.dumps()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 152,
+  "chapter": "01_python_tutorial",
+  "order": 94,
+  "lesson": "Python JSON",
+  "link": "../01_python_tutorial/094_python_json.ipynb",
+  "question": "`json.dumps(None)` cho kết quả là gì?",
+  "options": [
+   "`\"None\"`",
+   "`\"\"`",
+   "`None`",
+   "`null`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 153,
+  "chapter": "01_python_tutorial",
+  "order": 95,
+  "lesson": "Python RegEx",
+  "link": "../01_python_tutorial/095_python_regex.ipynb",
+  "question": "`re.findall(r\"\\d\", \"a1b22\")` trả về gì?",
+  "options": [
+   "`[1, 2, 2]`",
+   "`['1', '22']`",
+   "`'122'`",
+   "`['1', '2', '2']`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "`\\d` khớp **một** chữ số mỗi lần. Muốn lấy cả cụm số, dùng `\\d+` → `['1', '22']`."
+ },
+ {
+  "id": 154,
+  "chapter": "01_python_tutorial",
+  "order": 96,
+  "lesson": "Python PIP",
+  "link": "../01_python_tutorial/096_python_pip.ipynb",
+  "question": "Lệnh nào cài đặt package `requests`?",
+  "options": [
+   "`pip add requests`",
+   "`pip install requests`",
+   "`python get requests`",
+   "`import requests --install`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 155,
+  "chapter": "01_python_tutorial",
+  "order": 97,
+  "lesson": "Python Try Except",
+  "link": "../01_python_tutorial/097_python_try_except.ipynb",
+  "question": "Khối nào **luôn** được thực thi, dù có lỗi hay không?",
+  "options": [
+   "`else`",
+   "`finally`",
+   "`except`",
+   "`try`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 156,
+  "chapter": "01_python_tutorial",
+  "order": 97,
+  "lesson": "Python Try Except",
+  "link": "../01_python_tutorial/097_python_try_except.ipynb",
+  "question": "Điền vào chỗ trống để chủ động phát sinh lỗi:\n```python\nif x < 0:\n    ____ Exception(\"Sorry, no numbers below zero\")\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "raise"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 157,
+  "chapter": "01_python_tutorial",
+  "order": 98,
+  "lesson": "Python String Formatting",
+  "link": "../01_python_tutorial/098_python_string_formatting.ipynb",
+  "question": "`f\"{1234.5:,.1f}\"` cho kết quả là gì?",
+  "options": [
+   "`1.234,5`",
+   "`1,234.5`",
+   "`1,234.50`",
+   "`1234.5`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 158,
+  "chapter": "01_python_tutorial",
+  "order": 98,
+  "lesson": "Python String Formatting",
+  "link": "../01_python_tutorial/098_python_string_formatting.ipynb",
+  "question": "Đoạn code sau in ra gì?\n```python\nprint(\"{1} {0}\".format(\"World\", \"Hello\"))\n```",
+  "options": [
+   "`{1} {0}`",
+   "`Hello World`",
+   "`World Hello`",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 159,
+  "chapter": "01_python_tutorial",
+  "order": 99,
+  "lesson": "Python None",
+  "link": "../01_python_tutorial/099_python_none.ipynb",
+  "question": "Cách kiểm tra biến `x` là `None` được khuyến khích nhất là gì?",
+  "options": [
+   "`if x = None:`",
+   "`if x == None:`",
+   "`if x is None:`",
+   "`if not x:`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "`if not x:` cũng đúng khi `x` là `0` hoặc `\"\"`, nên không chính xác."
+ },
+ {
+  "id": 160,
+  "chapter": "01_python_tutorial",
+  "order": 100,
+  "lesson": "Python User Input",
+  "link": "../01_python_tutorial/100_python_user_input.ipynb",
+  "question": "`type(input())` khi người dùng nhập `42` là gì?",
+  "options": [
+   "`str`",
+   "`int`",
+   "`float`",
+   "`NoneType`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 161,
+  "chapter": "01_python_tutorial",
+  "order": 101,
+  "lesson": "Python VirtualEnv",
+  "link": "../01_python_tutorial/101_python_virtualenv.ipynb",
+  "question": "Lệnh nào tạo một môi trường ảo tên `env`?",
+  "options": [
+   "`virtualenv --new env`",
+   "`python venv create env`",
+   "`pip install venv env`",
+   "`python -m venv env`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 162,
+  "chapter": "02_python_classes",
+  "order": 102,
+  "lesson": "Python OOP",
+  "link": "../02_python_classes/001_python_oop.ipynb",
+  "question": "Trong OOP, **class** là gì?",
+  "options": [
+   "Một biến lưu nhiều giá trị",
+   "Bản thiết kế (khuôn mẫu) để tạo ra object",
+   "Một hàm có sẵn của Python",
+   "Một kiểu vòng lặp"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 163,
+  "chapter": "02_python_classes",
+  "order": 102,
+  "lesson": "Python OOP",
+  "link": "../02_python_classes/001_python_oop.ipynb",
+  "question": "Nguyên tắc **DRY** nghĩa là gì?",
+  "options": [
+   "Don't Repeat Yourself",
+   "Data Read Yield",
+   "Define Return Yield",
+   "Do Run Yourself"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 164,
+  "chapter": "02_python_classes",
+  "order": 103,
+  "lesson": "Python Classes and Objects",
+  "link": "../02_python_classes/002_python_classes_objects.ipynb",
+  "question": "Từ khoá nào dùng để tạo class?",
+  "options": [
+   "`def`",
+   "`new`",
+   "`class`",
+   "`object`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 165,
+  "chapter": "02_python_classes",
+  "order": 103,
+  "lesson": "Python Classes and Objects",
+  "link": "../02_python_classes/002_python_classes_objects.ipynb",
+  "question": "Điền vào chỗ trống để tạo object `p1` từ class `MyClass`:\n```python\nclass MyClass:\n    x = 5\n\np1 = ____\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "MyClass()"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 166,
+  "chapter": "02_python_classes",
+  "order": 104,
+  "lesson": "Python __init__() Method",
+  "link": "../02_python_classes/003_python_init_method.ipynb",
+  "question": "Phương thức `__init__()` được gọi khi nào?",
+  "options": [
+   "Khi chương trình kết thúc",
+   "Chỉ khi gọi `obj.__init__()`",
+   "Khi gọi `print(object)`",
+   "Tự động khi tạo object mới"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 167,
+  "chapter": "02_python_classes",
+  "order": 105,
+  "lesson": "Python self Parameter",
+  "link": "../02_python_classes/004_python_self_parameter.ipynb",
+  "question": "Khi gọi `p1.greet()`, tham số `self` trong `greet` là gì?",
+  "options": [
+   "`None`",
+   "Object `p1`",
+   "Hàm `greet`",
+   "Class `Person`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 168,
+  "chapter": "02_python_classes",
+  "order": 106,
+  "lesson": "Python Class Properties",
+  "link": "../02_python_classes/005_python_class_properties.ipynb",
+  "question": "Thuộc tính khai báo **trong class nhưng ngoài mọi phương thức** gọi là gì?",
+  "options": [
+   "Thuộc tính class (dùng chung cho mọi object)",
+   "Biến cục bộ",
+   "Thuộc tính private",
+   "Thuộc tính object"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 169,
+  "chapter": "02_python_classes",
+  "order": 107,
+  "lesson": "Python Class Methods",
+  "link": "../02_python_classes/006_python_class_methods.ipynb",
+  "question": "Phương thức nào quyết định nội dung được in ra khi gọi `print(obj)`?",
+  "options": [
+   "`__show__()`",
+   "`__print__()`",
+   "`__str__()`",
+   "`__init__()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 170,
+  "chapter": "02_python_classes",
+  "order": 108,
+  "lesson": "Python Magic Methods",
+  "link": "../02_python_classes/007_python_magic_methods.ipynb",
+  "question": "Magic method nào được gọi khi viết `len(obj)`?",
+  "options": [
+   "`__len__()`",
+   "`__length__()`",
+   "`__count__()`",
+   "`__size__()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 171,
+  "chapter": "02_python_classes",
+  "order": 109,
+  "lesson": "Python __str__() Method",
+  "link": "../02_python_classes/008_magic_method_str.ipynb",
+  "question": "`__str__()` phải trả về kiểu dữ liệu nào?",
+  "options": [
+   "`int`",
+   "`str`",
+   "`None`",
+   "Bất kỳ kiểu nào"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 172,
+  "chapter": "02_python_classes",
+  "order": 110,
+  "lesson": "Python __repr__() Method",
+  "link": "../02_python_classes/009_magic_method_repr.ipynb",
+  "question": "In một **list chứa object**, Python dùng phương thức nào để hiển thị từng object?",
+  "options": [
+   "`__repr__()`",
+   "`__str__()`",
+   "`__init__()`",
+   "`__list__()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 173,
+  "chapter": "02_python_classes",
+  "order": 111,
+  "lesson": "Python __eq__() Method",
+  "link": "../02_python_classes/010_magic_method_eq.ipynb",
+  "question": "Không có `__eq__()`, `Person(\"A\", 1) == Person(\"A\", 1)` trả về gì?",
+  "options": [
+   "`None`",
+   "Báo lỗi",
+   "`True`",
+   "`False`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 174,
+  "chapter": "02_python_classes",
+  "order": 112,
+  "lesson": "Python __add__() Method",
+  "link": "../02_python_classes/011_magic_method_add.ipynb",
+  "question": "Magic method nào được gọi khi viết `a + b`?",
+  "options": [
+   "`__append__()`",
+   "`__add__()`",
+   "`__sum__()`",
+   "`__plus__()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 175,
+  "chapter": "02_python_classes",
+  "order": 113,
+  "lesson": "Python __len__() Method",
+  "link": "../02_python_classes/012_magic_method_len.ipynb",
+  "question": "Nếu `__len__()` trả về `0`, `bool(obj)` cho kết quả gì (khi class không có `__bool__`)?",
+  "options": [
+   "Báo lỗi",
+   "`False`",
+   "`0`",
+   "`True`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 176,
+  "chapter": "02_python_classes",
+  "order": 114,
+  "lesson": "Python __lt__() Method",
+  "link": "../02_python_classes/013_magic_method_lt.ipynb",
+  "question": "Magic method nào cần có để `sorted()` sắp xếp được list các object?",
+  "options": [
+   "`__len__()`",
+   "`__eq__()`",
+   "`__lt__()`",
+   "`__sort__()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 177,
+  "chapter": "02_python_classes",
+  "order": 115,
+  "lesson": "Python __contains__() Method",
+  "link": "../02_python_classes/014_magic_method_contains.ipynb",
+  "question": "Biểu thức nào gọi tới `__contains__()`?",
+  "options": [
+   "`obj == x`",
+   "`len(obj)`",
+   "`x in obj`",
+   "`obj.contains(x)`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 178,
+  "chapter": "02_python_classes",
+  "order": 116,
+  "lesson": "Python __call__() Method",
+  "link": "../02_python_classes/015_magic_method_call.ipynb",
+  "question": "Magic method nào cho phép viết `obj()`?",
+  "options": [
+   "`__init__()`",
+   "`__run__()`",
+   "`__exec__()`",
+   "`__call__()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 179,
+  "chapter": "02_python_classes",
+  "order": 117,
+  "lesson": "Python Inheritance",
+  "link": "../02_python_classes/016_python_inheritance.ipynb",
+  "question": "Hàm nào giúp class con gọi `__init__()` của class cha?",
+  "options": [
+   "`self.parent()`",
+   "`parent()`",
+   "`super()`",
+   "`base()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 180,
+  "chapter": "02_python_classes",
+  "order": 117,
+  "lesson": "Python Inheritance",
+  "link": "../02_python_classes/016_python_inheritance.ipynb",
+  "question": "Điền vào chỗ trống để `Student` kế thừa `Person`:\n```python\nclass Student____:\n    pass\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "(Person)"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 181,
+  "chapter": "02_python_classes",
+  "order": 118,
+  "lesson": "Python Polymorphism",
+  "link": "../02_python_classes/017_python_polymorphism.ipynb",
+  "question": "\"Polymorphism\" nghĩa là gì?",
+  "options": [
+   "Nhiều hình dạng — cùng tên phương thức, nhiều cách thực hiện",
+   "Một class có nhiều thuộc tính",
+   "Ẩn dữ liệu bên trong class",
+   "Một hàm gọi lại chính nó"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 182,
+  "chapter": "02_python_classes",
+  "order": 119,
+  "lesson": "Python Encapsulation",
+  "link": "../02_python_classes/018_python_encapsulation.ipynb",
+  "question": "Tiền tố nào biến một thuộc tính thành **private** trong Python?",
+  "options": [
+   "`#`",
+   "`_`",
+   "`__`",
+   "`private`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 183,
+  "chapter": "02_python_classes",
+  "order": 120,
+  "lesson": "Python Inner Classes",
+  "link": "../02_python_classes/019_python_inner_classes.ipynb",
+  "question": "Cách nào tạo object của inner class `Inner` nằm trong `Outer`?",
+  "options": [
+   "`new Outer.Inner`",
+   "`Outer.Inner()`",
+   "`Inner()`",
+   "`Outer().Inner`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 184,
+  "chapter": "03_file_handling",
+  "order": 121,
+  "lesson": "Python File Handling",
+  "link": "../03_file_handling/001_python_file_handling.ipynb",
+  "question": "Chế độ mặc định của `open()` là gì?",
+  "options": [
+   "`\"w\"` (ghi) và `\"t\"` (văn bản)",
+   "`\"r\"` (đọc) và `\"t\"` (văn bản)",
+   "`\"x\"` (tạo mới)",
+   "`\"a\"` (ghi thêm) và `\"b\"` (nhị phân)"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 185,
+  "chapter": "03_file_handling",
+  "order": 121,
+  "lesson": "Python File Handling",
+  "link": "../03_file_handling/001_python_file_handling.ipynb",
+  "question": "Chế độ nào **tạo file mới** và báo lỗi nếu file đã tồn tại?",
+  "options": [
+   "`\"r\"`",
+   "`\"x\"`",
+   "`\"a\"`",
+   "`\"w\"`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 186,
+  "chapter": "03_file_handling",
+  "order": 122,
+  "lesson": "Python File Open — Read Files",
+  "link": "../03_file_handling/002_python_read_files.ipynb",
+  "question": "Phương thức nào đọc **một dòng** của file?",
+  "options": [
+   "`readlines()`",
+   "`line()`",
+   "`readline()`",
+   "`read()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 187,
+  "chapter": "03_file_handling",
+  "order": 122,
+  "lesson": "Python File Open — Read Files",
+  "link": "../03_file_handling/002_python_read_files.ipynb",
+  "question": "Điền vào chỗ trống để file tự động đóng sau khi đọc:\n```python\n____ open(\"demofile.txt\", encoding=\"utf-8\") as f:\n    print(f.read())\n```",
+  "options": [],
+  "correct": "",
+  "answers": [
+   "with"
+  ],
+  "explanation": ""
+ },
+ {
+  "id": 188,
+  "chapter": "03_file_handling",
+  "order": 123,
+  "lesson": "Python File Write — Write/Create Files",
+  "link": "../03_file_handling/003_python_write_create_files.ipynb",
+  "question": "Chế độ nào **ghi thêm** vào cuối file mà không xoá nội dung cũ?",
+  "options": [
+   "`\"r\"`",
+   "`\"w\"`",
+   "`\"x\"`",
+   "`\"a\"`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 189,
+  "chapter": "03_file_handling",
+  "order": 124,
+  "lesson": "Python Delete File",
+  "link": "../03_file_handling/004_python_delete_files.ipynb",
+  "question": "Hàm nào xoá một file?",
+  "options": [
+   "`os.rmdir()`",
+   "`os.remove()`",
+   "`os.delete()`",
+   "`file.delete()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 190,
+  "chapter": "11_how_to",
+  "order": 1,
+  "lesson": "How to Remove Duplicates From a Python List",
+  "link": "../11_how_to/001_remove_list_duplicates.ipynb",
+  "question": "Biểu thức nào loại bỏ phần tử trùng **và giữ nguyên thứ tự**?",
+  "options": [
+   "`sorted(mylist)`",
+   "`list(dict.fromkeys(mylist))`",
+   "`mylist.unique()`",
+   "`list(set(mylist))`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 191,
+  "chapter": "11_how_to",
+  "order": 2,
+  "lesson": "How to Reverse a String in Python",
+  "link": "../11_how_to/002_reverse_a_string.ipynb",
+  "question": "`\"abc\"[::-1]` cho kết quả là gì?",
+  "options": [
+   "Báo lỗi",
+   "`\"cba\"`",
+   "`\"abc\"`",
+   "`\"c\"`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 192,
+  "chapter": "11_how_to",
+  "order": 3,
+  "lesson": "How to Add Two Numbers in Python",
+  "link": "../11_how_to/003_add_two_numbers.ipynb",
+  "question": "Nếu `x = \"7\"` và `y = \"15\"`, `x + y` cho kết quả gì?",
+  "options": [
+   "`\"22\"`",
+   "Báo lỗi",
+   "`\"715\"`",
+   "`22`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 193,
+  "chapter": "05_matplotlib",
+  "order": 1,
+  "lesson": "Matplotlib Intro",
+  "link": "../05_matplotlib/001_matplotlib_intro.ipynb",
+  "question": "Matplotlib được dùng chủ yếu để làm gì?",
+  "options": [
+   "Kết nối cơ sở dữ liệu",
+   "Xây dựng website",
+   "Huấn luyện mô hình học máy",
+   "Vẽ đồ thị, trực quan hoá dữ liệu"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 194,
+  "chapter": "05_matplotlib",
+  "order": 2,
+  "lesson": "Matplotlib Getting Started",
+  "link": "../05_matplotlib/002_matplotlib_get_started.ipynb",
+  "question": "Thuộc tính nào chứa phiên bản Matplotlib?",
+  "options": [
+   "`matplotlib.ver()`",
+   "`matplotlib.version`",
+   "`matplotlib.VERSION`",
+   "`matplotlib.__version__`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 195,
+  "chapter": "05_matplotlib",
+  "order": 3,
+  "lesson": "Matplotlib Pyplot",
+  "link": "../05_matplotlib/003_matplotlib_pyplot.ipynb",
+  "question": "Bí danh (alias) quy ước cho `matplotlib.pyplot` là gì?",
+  "options": [
+   "`pp`",
+   "`py`",
+   "`mpl`",
+   "`plt`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 196,
+  "chapter": "05_matplotlib",
+  "order": 4,
+  "lesson": "Matplotlib Plotting",
+  "link": "../05_matplotlib/004_matplotlib_plotting.ipynb",
+  "question": "`plt.plot(x, y, 'o')` vẽ ra gì?",
+  "options": [
+   "Chỉ các điểm hình tròn, không có đường nối",
+   "Biểu đồ cột",
+   "Biểu đồ tròn",
+   "Đường nối các điểm"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 197,
+  "chapter": "05_matplotlib",
+  "order": 5,
+  "lesson": "Matplotlib Markers",
+  "link": "../05_matplotlib/005_matplotlib_markers.ipynb",
+  "question": "Trong `plt.plot(y, 'o--g')`, `--` nghĩa là gì?",
+  "options": [
+   "Màu xám",
+   "Marker hình thoi",
+   "Độ dày đường",
+   "Nét đứt"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 198,
+  "chapter": "05_matplotlib",
+  "order": 6,
+  "lesson": "Matplotlib Line",
+  "link": "../05_matplotlib/006_matplotlib_line.ipynb",
+  "question": "Viết tắt của tham số `linewidth` là gì?",
+  "options": [
+   "`w`",
+   "`lw`",
+   "`width`",
+   "`lwd`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 199,
+  "chapter": "05_matplotlib",
+  "order": 7,
+  "lesson": "Matplotlib Labels and Title",
+  "link": "../05_matplotlib/007_matplotlib_labels.ipynb",
+  "question": "Hàm nào đặt nhãn cho **trục tung (y)**?",
+  "options": [
+   "`plt.ylabel()`",
+   "`plt.title()`",
+   "`plt.label()`",
+   "`plt.xlabel()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 200,
+  "chapter": "05_matplotlib",
+  "order": 8,
+  "lesson": "Matplotlib Adding Grid Lines",
+  "link": "../05_matplotlib/008_matplotlib_grid.ipynb",
+  "question": "Làm sao chỉ hiện đường lưới **dọc** (theo trục x)?",
+  "options": [
+   "`plt.grid('vertical')`",
+   "`plt.grid(axis='y')`",
+   "`plt.grid(axis='x')`",
+   "`plt.xgrid()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 201,
+  "chapter": "05_matplotlib",
+  "order": 9,
+  "lesson": "Matplotlib Subplot",
+  "link": "../05_matplotlib/009_matplotlib_subplot.ipynb",
+  "question": "`plt.subplot(2, 3, 4)` là đồ thị ở vị trí nào?",
+  "options": [
+   "Hàng 4, cột 2",
+   "Hàng 1, cột 4",
+   "Hàng 2, cột 1",
+   "Hàng 2, cột 3"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": "Lưới 2 hàng × 3 cột, đếm từ trái sang phải: vị trí 1-3 ở hàng 1, vị trí 4-6 ở hàng 2."
+ },
+ {
+  "id": 202,
+  "chapter": "05_matplotlib",
+  "order": 10,
+  "lesson": "Matplotlib Scatter",
+  "link": "../05_matplotlib/010_matplotlib_scatter.ipynb",
+  "question": "Tham số nào điều chỉnh **kích thước** chấm trong `scatter()`?",
+  "options": [
+   "`size`",
+   "`s`",
+   "`alpha`",
+   "`ms`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 203,
+  "chapter": "05_matplotlib",
+  "order": 11,
+  "lesson": "Matplotlib Bars",
+  "link": "../05_matplotlib/011_matplotlib_bars.ipynb",
+  "question": "Hàm nào vẽ biểu đồ cột **nằm ngang**?",
+  "options": [
+   "`plt.bar(horizontal=True)`",
+   "`plt.barh()`",
+   "`plt.hist()`",
+   "`plt.hbar()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 204,
+  "chapter": "05_matplotlib",
+  "order": 12,
+  "lesson": "Matplotlib Histograms",
+  "link": "../05_matplotlib/012_matplotlib_histograms.ipynb",
+  "question": "Hàm nào vẽ histogram?",
+  "options": [
+   "`plt.hist()`",
+   "`plt.bar()`",
+   "`plt.histogram()`",
+   "`plt.freq()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 205,
+  "chapter": "05_matplotlib",
+  "order": 13,
+  "lesson": "Matplotlib Pie Charts",
+  "link": "../05_matplotlib/013_matplotlib_pie_charts.ipynb",
+  "question": "Tham số nào **tách** một miếng ra khỏi biểu đồ tròn?",
+  "options": [
+   "`offset`",
+   "`split`",
+   "`explode`",
+   "`separate`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 206,
+  "chapter": "04_python_modules/numpy",
+  "order": 1,
+  "lesson": "NumPy Tutorial",
+  "link": "../04_python_modules/numpy/001_numpy_home.ipynb",
+  "question": "NumPy chủ yếu dùng để làm gì?",
+  "options": [
+   "Làm việc với mảng (array) số",
+   "Quản lý cơ sở dữ liệu",
+   "Gửi email",
+   "Xây dựng giao diện đồ hoạ"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 207,
+  "chapter": "04_python_modules/numpy",
+  "order": 2,
+  "lesson": "NumPy Introduction",
+  "link": "../04_python_modules/numpy/002_numpy_intro.ipynb",
+  "question": "Đối tượng mảng của NumPy tên là gì?",
+  "options": [
+   "`array`",
+   "`ndarray`",
+   "`list`",
+   "`nparray`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 208,
+  "chapter": "04_python_modules/numpy",
+  "order": 3,
+  "lesson": "NumPy Getting Started",
+  "link": "../04_python_modules/numpy/003_numpy_getting_started.ipynb",
+  "question": "Bí danh quy ước khi import NumPy là gì?",
+  "options": [
+   "`n`",
+   "`np`",
+   "`num`",
+   "`npy`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 209,
+  "chapter": "04_python_modules/numpy",
+  "order": 4,
+  "lesson": "NumPy Creating Arrays",
+  "link": "../04_python_modules/numpy/004_numpy_creating_arrays.ipynb",
+  "question": "`np.array([[1, 2], [3, 4]]).ndim` bằng bao nhiêu?",
+  "options": [
+   "4",
+   "2",
+   "1",
+   "0"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 210,
+  "chapter": "04_python_modules/numpy",
+  "order": 5,
+  "lesson": "NumPy Array Indexing",
+  "link": "../04_python_modules/numpy/005_numpy_array_indexing.ipynb",
+  "question": "Với `arr = np.array([[1, 2, 3], [4, 5, 6]])`, `arr[1, 0]` là gì?",
+  "options": [
+   "`1`",
+   "`4`",
+   "`5`",
+   "`2`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 211,
+  "chapter": "04_python_modules/numpy",
+  "order": 6,
+  "lesson": "NumPy Array Slicing",
+  "link": "../04_python_modules/numpy/006_numpy_array_slicing.ipynb",
+  "question": "`np.array([1, 2, 3, 4, 5])[::2]` cho kết quả gì?",
+  "options": [
+   "`[1 2]`",
+   "`[5 3 1]`",
+   "`[1 3 5]`",
+   "`[2 4]`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 212,
+  "chapter": "04_python_modules/numpy",
+  "order": 7,
+  "lesson": "NumPy Data Types",
+  "link": "../04_python_modules/numpy/007_numpy_data_types.ipynb",
+  "question": "Phương thức nào tạo bản sao mảng với kiểu dữ liệu khác?",
+  "options": [
+   "`np.cast(arr, 'i')`",
+   "`arr.dtype('i')`",
+   "`arr.astype('i')`",
+   "`arr.convert('i')`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 213,
+  "chapter": "04_python_modules/numpy",
+  "order": 8,
+  "lesson": "NumPy Array Copy vs View",
+  "link": "../04_python_modules/numpy/008_numpy_copy_vs_view.ipynb",
+  "question": "Sau `x = arr.view()` rồi `x[0] = 100`, mảng `arr` thế nào?",
+  "options": [
+   "Báo lỗi",
+   "Không đổi",
+   "`arr[0]` cũng thành `100`",
+   "`arr` bị xoá"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 214,
+  "chapter": "04_python_modules/numpy",
+  "order": 9,
+  "lesson": "NumPy Array Shape",
+  "link": "../04_python_modules/numpy/009_numpy_array_shape.ipynb",
+  "question": "`np.array([[1, 2, 3], [4, 5, 6]]).shape` là gì?",
+  "options": [
+   "`(3, 2)`",
+   "`(2,)`",
+   "`(2, 3)`",
+   "`6`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 215,
+  "chapter": "04_python_modules/numpy",
+  "order": 10,
+  "lesson": "NumPy Array Reshaping",
+  "link": "../04_python_modules/numpy/010_numpy_array_reshape.ipynb",
+  "question": "Mảng 12 phần tử **không thể** reshape thành shape nào?",
+  "options": [
+   "`(3, 4)`",
+   "`(12, 1)`",
+   "`(5, 2)`",
+   "`(2, 3, 2)`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 216,
+  "chapter": "04_python_modules/numpy",
+  "order": 11,
+  "lesson": "NumPy Array Iterating",
+  "link": "../04_python_modules/numpy/011_numpy_array_iterating.ipynb",
+  "question": "Hàm nào duyệt qua mọi phần tử của mảng nhiều chiều mà không cần vòng lặp lồng nhau?",
+  "options": [
+   "`np.loop()`",
+   "`np.iter()`",
+   "`np.each()`",
+   "`np.nditer()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 217,
+  "chapter": "04_python_modules/numpy",
+  "order": 12,
+  "lesson": "NumPy Joining Array",
+  "link": "../04_python_modules/numpy/012_numpy_array_join.ipynb",
+  "question": "`np.vstack(([1, 2], [3, 4]))` cho kết quả có shape là gì?",
+  "options": [
+   "`(2, 2)`",
+   "`(4,)`",
+   "`(1, 4)`",
+   "`(2, 2, 1)`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 218,
+  "chapter": "04_python_modules/numpy",
+  "order": 13,
+  "lesson": "NumPy Splitting Array",
+  "link": "../04_python_modules/numpy/013_numpy_array_split.ipynb",
+  "question": "`np.array_split(np.array([1, 2, 3, 4, 5]), 2)` trả về gì?",
+  "options": [
+   "`[array([1, 2, 3]), array([4, 5])]`",
+   "`[array([1, 2]), array([3, 4, 5])]`",
+   "Báo lỗi vì không chia đều",
+   "`array([[1, 2], [3, 4]])`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 219,
+  "chapter": "04_python_modules/numpy",
+  "order": 14,
+  "lesson": "NumPy Searching Arrays",
+  "link": "../04_python_modules/numpy/014_numpy_array_search.ipynb",
+  "question": "`np.where(np.array([5, 3, 5]) == 5)` trả về gì?",
+  "options": [
+   "`(array([5, 5]),)`",
+   "`(array([0, 2]),)`",
+   "`2`",
+   "`[True, False, True]`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 220,
+  "chapter": "04_python_modules/numpy",
+  "order": 15,
+  "lesson": "NumPy Sorting Arrays",
+  "link": "../04_python_modules/numpy/015_numpy_array_sort.ipynb",
+  "question": "`np.sort(np.array([[3, 1], [2, 0]]))` cho kết quả gì?",
+  "options": [
+   "`[[1 3] [0 2]]`",
+   "`[[2 0] [3 1]]`",
+   "`[0 1 2 3]`",
+   "`[[0 1] [2 3]]`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": "Với mảng 2-D, mỗi **hàng** được sắp xếp riêng."
+ },
+ {
+  "id": 221,
+  "chapter": "04_python_modules/numpy",
+  "order": 16,
+  "lesson": "NumPy Filter Array",
+  "link": "../04_python_modules/numpy/016_numpy_array_filter.ipynb",
+  "question": "`arr = np.array([1, 5, 8, 3])`. `arr[arr > 4]` cho kết quả gì?",
+  "options": [
+   "`[False True True False]`",
+   "`[5 8]`",
+   "`[1 3]`",
+   "`2`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 222,
+  "chapter": "04_python_modules/numpy",
+  "order": 17,
+  "lesson": "Random Numbers in NumPy",
+  "link": "../04_python_modules/numpy/017_random_intro.ipynb",
+  "question": "`random.rand()` trả về giá trị trong khoảng nào?",
+  "options": [
+   "-1 đến 1",
+   "1 đến 6",
+   "0 đến 1",
+   "0 đến 100"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 223,
+  "chapter": "04_python_modules/numpy",
+  "order": 18,
+  "lesson": "Random Data Distribution",
+  "link": "../04_python_modules/numpy/018_random_data_distribution.ipynb",
+  "question": "Trong `random.choice([1, 2], p=[0.2, 0.8])`, tổng các phần tử của `p` phải bằng bao nhiêu?",
+  "options": [
+   "0",
+   "Số phần tử của mảng",
+   "1",
+   "100"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 224,
+  "chapter": "04_python_modules/numpy",
+  "order": 19,
+  "lesson": "Random Permutations",
+  "link": "../04_python_modules/numpy/019_random_permutation.ipynb",
+  "question": "Hàm nào xáo trộn mà **không** thay đổi mảng gốc?",
+  "options": [
+   "`random.permutation()`",
+   "`random.choice()`",
+   "`random.shuffle()`",
+   "`random.sort()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 225,
+  "chapter": "04_python_modules/numpy",
+  "order": 20,
+  "lesson": "Seaborn",
+  "link": "../04_python_modules/numpy/020_random_seaborn_module.ipynb",
+  "question": "Thư viện Seaborn được xây dựng dựa trên thư viện nào?",
+  "options": [
+   "Pandas",
+   "Matplotlib",
+   "SciPy",
+   "Django"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 226,
+  "chapter": "04_python_modules/numpy",
+  "order": 21,
+  "lesson": "Normal (Gaussian) Distribution",
+  "link": "../04_python_modules/numpy/021_random_normal_distribution.ipynb",
+  "question": "Trong `random.normal()`, tham số nào là **độ lệch chuẩn**?",
+  "options": [
+   "`loc`",
+   "`scale`",
+   "`std`",
+   "`size`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 227,
+  "chapter": "04_python_modules/numpy",
+  "order": 22,
+  "lesson": "Binomial Distribution",
+  "link": "../04_python_modules/numpy/022_random_binomial_distribution.ipynb",
+  "question": "Phân phối nhị thức là phân phối loại nào?",
+  "options": [
+   "Liên tục",
+   "Đều",
+   "Rời rạc",
+   "Không xác định"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 228,
+  "chapter": "04_python_modules/numpy",
+  "order": 23,
+  "lesson": "Poisson Distribution",
+  "link": "../04_python_modules/numpy/023_random_poisson_distribution.ipynb",
+  "question": "Tham số `lam` trong `random.poisson()` có ý nghĩa gì?",
+  "options": [
+   "Xác suất thành công",
+   "Độ lệch chuẩn",
+   "Số lần xảy ra trung bình đã biết",
+   "Số lần thử"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 229,
+  "chapter": "04_python_modules/numpy",
+  "order": 24,
+  "lesson": "Uniform Distribution",
+  "link": "../04_python_modules/numpy/024_random_uniform_distribution.ipynb",
+  "question": "Trong phân phối đều, các giá trị có xác suất xuất hiện thế nào?",
+  "options": [
+   "Tăng dần",
+   "Tập trung quanh giá trị trung bình",
+   "Như nhau",
+   "Giảm dần"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 230,
+  "chapter": "04_python_modules/numpy",
+  "order": 25,
+  "lesson": "Logistic Distribution",
+  "link": "../04_python_modules/numpy/025_random_logistic_distribution.ipynb",
+  "question": "Phân phối logistic được dùng nhiều trong lĩnh vực nào?",
+  "options": [
+   "Học máy (machine learning)",
+   "Xử lý ảnh",
+   "Thiết kế web",
+   "Quản trị mạng"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 231,
+  "chapter": "04_python_modules/numpy",
+  "order": 26,
+  "lesson": "Multinomial Distribution",
+  "link": "../04_python_modules/numpy/026_random_multinomial_distribution.ipynb",
+  "question": "`random.multinomial(n=6, pvals=[1/6]*6)` trả về gì?",
+  "options": [
+   "Mảng 6 số thực",
+   "Mảng 6 phần tử: số lần ra từng mặt, tổng bằng 6",
+   "Một số từ 1 đến 6",
+   "Xác suất của mỗi mặt"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 232,
+  "chapter": "04_python_modules/numpy",
+  "order": 27,
+  "lesson": "Exponential Distribution",
+  "link": "../04_python_modules/numpy/027_random_exponential_distribution.ipynb",
+  "question": "Phân phối mũ mô tả điều gì?",
+  "options": [
+   "Thời gian cho tới sự kiện kế tiếp",
+   "Số lần sự kiện xảy ra",
+   "Kết quả tung đồng xu",
+   "Chiều cao của con người"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 233,
+  "chapter": "04_python_modules/numpy",
+  "order": 28,
+  "lesson": "Chi Square Distribution",
+  "link": "../04_python_modules/numpy/028_random_chi_square_distribution.ipynb",
+  "question": "Tham số `df` trong `random.chisquare()` là gì?",
+  "options": [
+   "Bậc tự do",
+   "Trung bình",
+   "Độ lệch chuẩn",
+   "Kích thước mảng"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 234,
+  "chapter": "04_python_modules/numpy",
+  "order": 29,
+  "lesson": "Rayleigh Distribution",
+  "link": "../04_python_modules/numpy/029_random_rayleigh_distribution.ipynb",
+  "question": "Phân phối Rayleigh thường dùng trong lĩnh vực nào?",
+  "options": [
+   "Thiết kế giao diện",
+   "Xử lý tín hiệu",
+   "Xử lý ngôn ngữ tự nhiên",
+   "Kế toán"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 235,
+  "chapter": "04_python_modules/numpy",
+  "order": 30,
+  "lesson": "Pareto Distribution",
+  "link": "../04_python_modules/numpy/030_random_pareto_distribution.ipynb",
+  "question": "Phân phối Pareto gắn liền với quy tắc nào?",
+  "options": [
+   "Quy tắc 50-50",
+   "Quy tắc 3 sigma",
+   "Quy tắc 1-10-100",
+   "Quy tắc 80-20"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 236,
+  "chapter": "04_python_modules/numpy",
+  "order": 31,
+  "lesson": "Zipf Distribution",
+  "link": "../04_python_modules/numpy/031_random_zipf_distribution.ipynb",
+  "question": "Theo định luật Zipf, từ phổ biến thứ 3 xuất hiện bao nhiêu lần so với từ phổ biến nhất?",
+  "options": [
+   "1/9 lần",
+   "1/3 lần",
+   "Như nhau",
+   "3 lần"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 237,
+  "chapter": "04_python_modules/numpy",
+  "order": 32,
+  "lesson": "NumPy ufuncs",
+  "link": "../04_python_modules/numpy/032_ufunc_intro.ipynb",
+  "question": "\"ufunc\" là viết tắt của gì?",
+  "options": [
+   "Unique Function",
+   "Universal Function",
+   "Unified Function",
+   "User Function"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 238,
+  "chapter": "04_python_modules/numpy",
+  "order": 33,
+  "lesson": "Create Your Own ufunc",
+  "link": "../04_python_modules/numpy/033_ufunc_create_function.ipynb",
+  "question": "Hàm nào biến một hàm Python thành ufunc?",
+  "options": [
+   "`np.makefunc()`",
+   "`np.frompyfunc()`",
+   "`np.ufunc()`",
+   "`np.function()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 239,
+  "chapter": "04_python_modules/numpy",
+  "order": 34,
+  "lesson": "Simple Arithmetic",
+  "link": "../04_python_modules/numpy/034_ufunc_simple_arithmetic.ipynb",
+  "question": "Hàm nào trả về cả **thương** và **phần dư**?",
+  "options": [
+   "`np.mod()`",
+   "`np.divmod()`",
+   "`np.remainder()`",
+   "`np.divide()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 240,
+  "chapter": "04_python_modules/numpy",
+  "order": 35,
+  "lesson": "Rounding Decimals",
+  "link": "../04_python_modules/numpy/035_ufunc_rounding_decimals.ipynb",
+  "question": "`np.floor(-3.2)` bằng bao nhiêu?",
+  "options": [
+   "`3.0`",
+   "`-3.2`",
+   "`-4.0`",
+   "`-3.0`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 241,
+  "chapter": "04_python_modules/numpy",
+  "order": 36,
+  "lesson": "NumPy Logs",
+  "link": "../04_python_modules/numpy/036_ufunc_logs.ipynb",
+  "question": "Hàm nào tính logarit tự nhiên (cơ số e)?",
+  "options": [
+   "`np.loge()`",
+   "`np.log10()`",
+   "`np.ln()`",
+   "`np.log()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 242,
+  "chapter": "04_python_modules/numpy",
+  "order": 37,
+  "lesson": "NumPy Summations",
+  "link": "../04_python_modules/numpy/037_ufunc_summations.ipynb",
+  "question": "`np.cumsum([1, 2, 3])` cho kết quả gì?",
+  "options": [
+   "`[1 2 3]`",
+   "`[6 5 3]`",
+   "`6`",
+   "`[1 3 6]`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 243,
+  "chapter": "04_python_modules/numpy",
+  "order": 38,
+  "lesson": "NumPy Products",
+  "link": "../04_python_modules/numpy/038_ufunc_products.ipynb",
+  "question": "`np.prod([2, 3, 4])` bằng bao nhiêu?",
+  "options": [
+   "234",
+   "6",
+   "24",
+   "9"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 244,
+  "chapter": "04_python_modules/numpy",
+  "order": 39,
+  "lesson": "NumPy Differences",
+  "link": "../04_python_modules/numpy/039_ufunc_differences.ipynb",
+  "question": "`np.diff([1, 4, 9])` cho kết quả gì?",
+  "options": [
+   "`[3 5]`",
+   "`14`",
+   "`[1 4 9]`",
+   "`[2]`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 245,
+  "chapter": "04_python_modules/numpy",
+  "order": 40,
+  "lesson": "NumPy LCM Lowest Common Multiple",
+  "link": "../04_python_modules/numpy/040_ufunc_finding_lcm.ipynb",
+  "question": "`np.lcm(4, 6)` bằng bao nhiêu?",
+  "options": [
+   "12",
+   "2",
+   "24",
+   "10"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 246,
+  "chapter": "04_python_modules/numpy",
+  "order": 41,
+  "lesson": "NumPy GCD Greatest Common Denominator",
+  "link": "../04_python_modules/numpy/041_ufunc_finding_gcd.ipynb",
+  "question": "`np.gcd(12, 18)` bằng bao nhiêu?",
+  "options": [
+   "36",
+   "6",
+   "3",
+   "2"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 247,
+  "chapter": "04_python_modules/numpy",
+  "order": 42,
+  "lesson": "NumPy Trigonometric Functions",
+  "link": "../04_python_modules/numpy/042_ufunc_trigonometric.ipynb",
+  "question": "`np.hypot(3, 4)` bằng bao nhiêu?",
+  "options": [
+   "12.0",
+   "5.0",
+   "25.0",
+   "7.0"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 248,
+  "chapter": "04_python_modules/numpy",
+  "order": 43,
+  "lesson": "NumPy Hyperbolic Functions",
+  "link": "../04_python_modules/numpy/043_ufunc_hyperbolic.ipynb",
+  "question": "Hàm nào là nghịch đảo của `np.tanh()`?",
+  "options": [
+   "`np.untanh()`",
+   "`np.atanh()`",
+   "`np.tanh_inv()`",
+   "`np.arctanh()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 249,
+  "chapter": "04_python_modules/numpy",
+  "order": 44,
+  "lesson": "NumPy Set Operations",
+  "link": "../04_python_modules/numpy/044_ufunc_set_operations.ipynb",
+  "question": "Hàm nào tìm **giao** của hai mảng NumPy?",
+  "options": [
+   "`np.union1d()`",
+   "`np.setdiff1d()`",
+   "`np.intersect1d()`",
+   "`np.setxor1d()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 250,
+  "chapter": "04_python_modules/pandas",
+  "order": 1,
+  "lesson": "Pandas Tutorial",
+  "link": "../04_python_modules/pandas/001_pandas_home.ipynb",
+  "question": "Pandas chủ yếu dùng để làm gì?",
+  "options": [
+   "Lập trình nhúng",
+   "Tạo game",
+   "Phân tích dữ liệu",
+   "Vẽ giao diện người dùng"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 251,
+  "chapter": "04_python_modules/pandas",
+  "order": 2,
+  "lesson": "Pandas Introduction",
+  "link": "../04_python_modules/pandas/002_pandas_intro.ipynb",
+  "question": "Ai đã tạo ra thư viện Pandas?",
+  "options": [
+   "Guido van Rossum",
+   "John D. Hunter",
+   "Wes McKinney",
+   "Travis Oliphant"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 252,
+  "chapter": "04_python_modules/pandas",
+  "order": 3,
+  "lesson": "Pandas Getting Started",
+  "link": "../04_python_modules/pandas/003_pandas_getting_started.ipynb",
+  "question": "Bí danh quy ước khi import Pandas là gì?",
+  "options": [
+   "`pd`",
+   "`pn`",
+   "`pds`",
+   "`pa`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 253,
+  "chapter": "04_python_modules/pandas",
+  "order": 4,
+  "lesson": "Pandas Series",
+  "link": "../04_python_modules/pandas/004_pandas_series.ipynb",
+  "question": "Trong Pandas, **Series** giống với thành phần nào của bảng?",
+  "options": [
+   "Cả bảng",
+   "Một hàng",
+   "Một ô",
+   "Một cột"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 254,
+  "chapter": "04_python_modules/pandas",
+  "order": 5,
+  "lesson": "Pandas DataFrames",
+  "link": "../04_python_modules/pandas/005_pandas_dataframes.ipynb",
+  "question": "Thuộc tính nào dùng để lấy hàng theo nhãn chỉ số?",
+  "options": [
+   "`df.loc`",
+   "`df.row`",
+   "`df.get`",
+   "`df.index`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 255,
+  "chapter": "04_python_modules/pandas",
+  "order": 6,
+  "lesson": "Pandas Read CSV",
+  "link": "../04_python_modules/pandas/006_pandas_read_csv.ipynb",
+  "question": "Phương thức nào giúp in **toàn bộ** DataFrame?",
+  "options": [
+   "`df.print()`",
+   "`df.show_all()`",
+   "`df.to_string()`",
+   "`df.full()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 256,
+  "chapter": "04_python_modules/pandas",
+  "order": 7,
+  "lesson": "Pandas Read JSON",
+  "link": "../04_python_modules/pandas/007_pandas_read_json.ipynb",
+  "question": "Hàm nào đọc file JSON thành DataFrame?",
+  "options": [
+   "`pd.json()`",
+   "`pd.load_json()`",
+   "`pd.read_json()`",
+   "`pd.open_json()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 257,
+  "chapter": "04_python_modules/pandas",
+  "order": 8,
+  "lesson": "Pandas - Analyzing DataFrames",
+  "link": "../04_python_modules/pandas/008_pandas_analyzing_data.ipynb",
+  "question": "`df.head()` không có tham số trả về bao nhiêu hàng?",
+  "options": [
+   "10",
+   "5",
+   "3",
+   "1"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 258,
+  "chapter": "04_python_modules/pandas",
+  "order": 9,
+  "lesson": "Pandas - Cleaning Data",
+  "link": "../04_python_modules/pandas/009_pandas_cleaning_data.ipynb",
+  "question": "Loại nào **không** phải là \"dữ liệu xấu\" cần làm sạch?",
+  "options": [
+   "Dữ liệu có nhiều cột",
+   "Ô trống",
+   "Sai định dạng",
+   "Trùng lặp"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 259,
+  "chapter": "04_python_modules/pandas",
+  "order": 10,
+  "lesson": "Pandas - Cleaning Empty Cells",
+  "link": "../04_python_modules/pandas/010_pandas_cleaning_empty_cells.ipynb",
+  "question": "Phương thức nào **xoá** các hàng có ô trống?",
+  "options": [
+   "`fillna()`",
+   "`clean()`",
+   "`remove_na()`",
+   "`dropna()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 260,
+  "chapter": "04_python_modules/pandas",
+  "order": 11,
+  "lesson": "Pandas - Cleaning Data of Wrong Format",
+  "link": "../04_python_modules/pandas/011_pandas_cleaning_wrong_format.ipynb",
+  "question": "Sau `pd.to_datetime()`, một ô ngày bị trống được hiển thị là gì?",
+  "options": [
+   "`0`",
+   "`NaT`",
+   "`None`",
+   "`NaN`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 261,
+  "chapter": "04_python_modules/pandas",
+  "order": 12,
+  "lesson": "Pandas - Fixing Wrong Data",
+  "link": "../04_python_modules/pandas/012_pandas_cleaning_wrong_data.ipynb",
+  "question": "Câu lệnh nào gán giá trị 45 vào cột `Duration` của hàng 7?",
+  "options": [
+   "`df.loc[7, 'Duration'] = 45`",
+   "`df.set(7, 'Duration', 45)`",
+   "`df.Duration(7) = 45`",
+   "`df[7]['Duration'] = 45`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 262,
+  "chapter": "04_python_modules/pandas",
+  "order": 13,
+  "lesson": "Pandas - Removing Duplicates",
+  "link": "../04_python_modules/pandas/013_pandas_removing_duplicates.ipynb",
+  "question": "Phương thức nào **xoá** các hàng trùng lặp?",
+  "options": [
+   "`df.drop_duplicates()`",
+   "`df.unique()`",
+   "`df.remove_duplicates()`",
+   "`df.duplicated()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 263,
+  "chapter": "04_python_modules/pandas",
+  "order": 14,
+  "lesson": "Pandas - Data Correlations",
+  "link": "../04_python_modules/pandas/014_pandas_correlations.ipynb",
+  "question": "Hệ số tương quan **-0.9** nghĩa là gì?",
+  "options": [
+   "Liên hệ mạnh nhưng ngược chiều",
+   "Không có liên hệ",
+   "Lỗi tính toán",
+   "Liên hệ yếu"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 264,
+  "chapter": "04_python_modules/pandas",
+  "order": 15,
+  "lesson": "Pandas - Plotting",
+  "link": "../04_python_modules/pandas/015_pandas_plotting.ipynb",
+  "question": "Để vẽ biểu đồ phân tán bằng Pandas, dùng `kind` nào?",
+  "options": [
+   "`'dots'`",
+   "`'scatter'`",
+   "`'line'`",
+   "`'hist'`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 265,
+  "chapter": "04_python_modules/scipy",
+  "order": 1,
+  "lesson": "SciPy Tutorial",
+  "link": "../04_python_modules/scipy/001_scipy_home.ipynb",
+  "question": "SciPy được xây dựng dựa trên thư viện nào?",
+  "options": [
+   "Pandas",
+   "Django",
+   "Seaborn",
+   "NumPy"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 266,
+  "chapter": "04_python_modules/scipy",
+  "order": 2,
+  "lesson": "SciPy Intro",
+  "link": "../04_python_modules/scipy/002_scipy_intro.ipynb",
+  "question": "SciPy là viết tắt của gì?",
+  "options": [
+   "Scientific Python",
+   "Script Python",
+   "Simple Python",
+   "Science Pipeline"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 267,
+  "chapter": "04_python_modules/scipy",
+  "order": 3,
+  "lesson": "SciPy Getting Started",
+  "link": "../04_python_modules/scipy/003_scipy_getting_started.ipynb",
+  "question": "Cách import module `constants` của SciPy nào đúng?",
+  "options": [
+   "`import constants from scipy`",
+   "`from scipy import constants`",
+   "`import constants`",
+   "`scipy.import(constants)`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 268,
+  "chapter": "04_python_modules/scipy",
+  "order": 4,
+  "lesson": "SciPy Constants",
+  "link": "../04_python_modules/scipy/004_scipy_constants.ipynb",
+  "question": "`constants.minute` trả về giá trị nào?",
+  "options": [
+   "`3600.0`",
+   "`60.0` (giây)",
+   "`1`",
+   "`0.0166`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 269,
+  "chapter": "04_python_modules/scipy",
+  "order": 5,
+  "lesson": "SciPy Optimizers",
+  "link": "../04_python_modules/scipy/005_scipy_optimizers.ipynb",
+  "question": "Hàm nào tìm **giá trị nhỏ nhất** của một hàm số?",
+  "options": [
+   "`numpy.min()`",
+   "`optimize.min()`",
+   "`optimize.minimize()`",
+   "`optimize.root()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 270,
+  "chapter": "04_python_modules/scipy",
+  "order": 6,
+  "lesson": "SciPy Sparse Data",
+  "link": "../04_python_modules/scipy/006_scipy_sparse_data.ipynb",
+  "question": "CSR là viết tắt của gì?",
+  "options": [
+   "Compressed Sparse Row",
+   "Compressed Sorted Row",
+   "Column Sparse Row",
+   "Compact Sparse Range"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 271,
+  "chapter": "04_python_modules/scipy",
+  "order": 7,
+  "lesson": "SciPy Graphs",
+  "link": "../04_python_modules/scipy/007_scipy_graphs.ipynb",
+  "question": "Thuật toán nào xử lý được đồ thị có **trọng số âm**?",
+  "options": [
+   "Bellman Ford",
+   "Dijkstra",
+   "DFS",
+   "BFS"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 272,
+  "chapter": "04_python_modules/scipy",
+  "order": 8,
+  "lesson": "SciPy Spatial Data",
+  "link": "../04_python_modules/scipy/008_scipy_spatial_data.ipynb",
+  "question": "Khoảng cách **Manhattan** giữa `(1, 0)` và `(10, 2)` là bao nhiêu?",
+  "options": [
+   "13",
+   "9",
+   "9.22",
+   "11"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": "|10 - 1| + |2 - 0| = 9 + 2 = 11."
+ },
+ {
+  "id": 273,
+  "chapter": "04_python_modules/scipy",
+  "order": 9,
+  "lesson": "SciPy Matlab Arrays",
+  "link": "../04_python_modules/scipy/009_scipy_matlab_arrays.ipynb",
+  "question": "Tham số nào giữ nguyên số chiều của mảng khi đọc file `.mat`?",
+  "options": [
+   "`raw=True`",
+   "`squeeze_me=True`",
+   "`keep_dims=True`",
+   "`flatten=True`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 274,
+  "chapter": "04_python_modules/scipy",
+  "order": 10,
+  "lesson": "SciPy Interpolation",
+  "link": "../04_python_modules/scipy/010_scipy_interpolation.ipynb",
+  "question": "Nội suy (interpolation) dùng để làm gì?",
+  "options": [
+   "Mã hoá dữ liệu",
+   "Sắp xếp dữ liệu",
+   "Tạo các điểm nằm giữa các điểm đã cho",
+   "Xoá dữ liệu trùng lặp"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 275,
+  "chapter": "04_python_modules/scipy",
+  "order": 11,
+  "lesson": "SciPy Statistical Significance Tests",
+  "link": "../04_python_modules/scipy/011_scipy_significance_tests.ipynb",
+  "question": "Khi nào ta **bác bỏ** giả thuyết không (H₀)?",
+  "options": [
+   "Khi p-value lớn hơn alpha",
+   "Khi alpha bằng 0",
+   "Khi skewness bằng 0",
+   "Khi p-value nhỏ hơn hoặc bằng alpha"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 276,
+  "chapter": "06_machine_learning",
+  "order": 1,
+  "lesson": "Machine Learning",
+  "link": "../06_machine_learning/001_ml_getting_started.ipynb",
+  "question": "\"Màu sắc của xe\" thuộc kiểu dữ liệu nào?",
+  "options": [
+   "Ordinal",
+   "Numerical — continuous",
+   "Categorical",
+   "Numerical — discrete"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 277,
+  "chapter": "06_machine_learning",
+  "order": 1,
+  "lesson": "Machine Learning",
+  "link": "../06_machine_learning/001_ml_getting_started.ipynb",
+  "question": "Điểm xếp loại A, B, C thuộc kiểu dữ liệu nào?",
+  "options": [
+   "Continuous",
+   "Categorical",
+   "Ordinal",
+   "Discrete"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 278,
+  "chapter": "06_machine_learning",
+  "order": 2,
+  "lesson": "Machine Learning - Mean Median Mode",
+  "link": "../06_machine_learning/002_ml_mean_median_mode.ipynb",
+  "question": "Trung vị (median) của `[1, 3, 2, 10]` là bao nhiêu?",
+  "options": [
+   "2.5",
+   "4",
+   "2",
+   "3"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": "Sắp xếp: 1, 2, 3, 10 → hai số giữa là 2 và 3 → (2 + 3) / 2 = 2.5."
+ },
+ {
+  "id": 279,
+  "chapter": "06_machine_learning",
+  "order": 3,
+  "lesson": "Machine Learning - Standard Deviation",
+  "link": "../06_machine_learning/003_ml_standard_deviation.ipynb",
+  "question": "Quan hệ giữa độ lệch chuẩn và phương sai là gì?",
+  "options": [
+   "Phương sai = căn bậc hai của độ lệch chuẩn",
+   "Không liên quan",
+   "Độ lệch chuẩn = căn bậc hai của phương sai",
+   "Độ lệch chuẩn = phương sai × 2"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 280,
+  "chapter": "06_machine_learning",
+  "order": 4,
+  "lesson": "Machine Learning - Percentiles",
+  "link": "../06_machine_learning/004_ml_percentile.ipynb",
+  "question": "Nếu phân vị thứ 75 của tuổi là 43, điều đó nghĩa là gì?",
+  "options": [
+   "43% số người dưới 75 tuổi",
+   "75% số người có tuổi từ 43 trở xuống",
+   "Tuổi trung bình là 43",
+   "75 người có tuổi 43"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 281,
+  "chapter": "06_machine_learning",
+  "order": 5,
+  "lesson": "Machine Learning - Data Distribution",
+  "link": "../06_machine_learning/005_ml_data_distribution.ipynb",
+  "question": "`numpy.random.uniform(0.0, 5.0, 250)` tạo ra gì?",
+  "options": [
+   "Mảng 5×250",
+   "5 số nguyên từ 0 đến 250",
+   "250 số nguyên từ 0 đến 5",
+   "250 số thực ngẫu nhiên trong khoảng 0 đến 5"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 282,
+  "chapter": "06_machine_learning",
+  "order": 6,
+  "lesson": "Machine Learning - Normal Data Distribution",
+  "link": "../06_machine_learning/006_ml_normal_data_distribution.ipynb",
+  "question": "Với `numpy.random.normal(5.0, 1.0, 100000)`, phần lớn giá trị nằm trong khoảng nào?",
+  "options": [
+   "-5 đến 5",
+   "0 đến 1",
+   "5 đến 100000",
+   "4 đến 6"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 283,
+  "chapter": "06_machine_learning",
+  "order": 7,
+  "lesson": "Machine Learning - Scatter Plot",
+  "link": "../06_machine_learning/007_ml_scatter_plot.ipynb",
+  "question": "Biểu đồ phân tán dùng tốt nhất để làm gì?",
+  "options": [
+   "Thể hiện tỉ lệ phần trăm",
+   "Đếm tần suất",
+   "Quan sát mối liên hệ giữa hai biến",
+   "Hiển thị dữ liệu theo thời gian thực"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 284,
+  "chapter": "06_machine_learning",
+  "order": 8,
+  "lesson": "Machine Learning - Linear Regression",
+  "link": "../06_machine_learning/008_ml_linear_regression.ipynb",
+  "question": "Trong `stats.linregress()`, giá trị nào cho biết **mức độ quan hệ** giữa x và y?",
+  "options": [
+   "`slope`",
+   "`r`",
+   "`intercept`",
+   "`std_err`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 285,
+  "chapter": "06_machine_learning",
+  "order": 9,
+  "lesson": "Machine Learning - Polynomial Regression",
+  "link": "../06_machine_learning/009_ml_polynomial_regression.ipynb",
+  "question": "Hàm nào tính **R-squared** trong scikit-learn?",
+  "options": [
+   "`sklearn.r2()`",
+   "`sklearn.metrics.r2_score()`",
+   "`numpy.r2_score()`",
+   "`scipy.stats.r2()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 286,
+  "chapter": "06_machine_learning",
+  "order": 10,
+  "lesson": "Machine Learning - Multiple Regression",
+  "link": "../06_machine_learning/010_ml_multiple_regression.ipynb",
+  "question": "Thuộc tính nào chứa **hệ số** của mô hình `LinearRegression` sau khi fit?",
+  "options": [
+   "`regr.params`",
+   "`regr.coef_`",
+   "`regr.slope`",
+   "`regr.weights`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 287,
+  "chapter": "06_machine_learning",
+  "order": 11,
+  "lesson": "Machine Learning - Scale",
+  "link": "../06_machine_learning/011_ml_scale.ipynb",
+  "question": "Công thức chuẩn hoá z-score là gì?",
+  "options": [
+   "`z = (x - s) / u`",
+   "`z = (x - u) / s`",
+   "`z = x / s`",
+   "`z = x - u`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 288,
+  "chapter": "06_machine_learning",
+  "order": 12,
+  "lesson": "Machine Learning - Train/Test",
+  "link": "../06_machine_learning/012_ml_train_test.ipynb",
+  "question": "Tỉ lệ chia train/test phổ biến trong bài là bao nhiêu?",
+  "options": [
+   "95% / 5%",
+   "50% / 50%",
+   "20% / 80%",
+   "80% / 20%"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 289,
+  "chapter": "06_machine_learning",
+  "order": 13,
+  "lesson": "Machine Learning - Decision Tree",
+  "link": "../06_machine_learning/013_ml_decision_tree.ipynb",
+  "question": "Vì sao cần dùng `map()` trước khi tạo cây quyết định?",
+  "options": [
+   "Để vẽ biểu đồ",
+   "Để xoá dữ liệu trùng lặp",
+   "Để chuyển các cột chữ (như quốc tịch) thành số",
+   "Để sắp xếp dữ liệu"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 290,
+  "chapter": "06_machine_learning",
+  "order": 14,
+  "lesson": "Machine Learning - Confusion Matrix",
+  "link": "../06_machine_learning/014_ml_confusion_matrix.ipynb",
+  "question": "**Recall (Sensitivity)** được tính bằng công thức nào?",
+  "options": [
+   "(TP + TN) / Tổng",
+   "TN / (TN + FP)",
+   "TP / (TP + FN)",
+   "TP / (TP + FP)"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 291,
+  "chapter": "06_machine_learning",
+  "order": 15,
+  "lesson": "Machine Learning - Hierarchical Clustering",
+  "link": "../06_machine_learning/015_ml_hierarchical_clustering.ipynb",
+  "question": "Phân cụm phân cấp thuộc loại học nào?",
+  "options": [
+   "Học không giám sát",
+   "Học sâu",
+   "Học tăng cường",
+   "Học có giám sát"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 292,
+  "chapter": "06_machine_learning",
+  "order": 16,
+  "lesson": "Machine Learning - Logistic Regression",
+  "link": "../06_machine_learning/016_ml_logistic_regression.ipynb",
+  "question": "Hồi quy logistic dùng cho loại bài toán nào?",
+  "options": [
+   "Phân cụm không giám sát",
+   "Giảm chiều dữ liệu",
+   "Dự đoán giá trị liên tục (giá nhà)",
+   "Phân loại (có/không, loại A/B/C)"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 293,
+  "chapter": "06_machine_learning",
+  "order": 17,
+  "lesson": "Machine Learning - Grid Search",
+  "link": "../06_machine_learning/017_ml_grid_search.ipynb",
+  "question": "Grid search dùng để làm gì?",
+  "options": [
+   "Chia dữ liệu train/test",
+   "Vẽ lưới trên biểu đồ",
+   "Chuẩn hoá dữ liệu",
+   "Tìm giá trị tham số tốt nhất cho mô hình"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 294,
+  "chapter": "06_machine_learning",
+  "order": 18,
+  "lesson": "Machine Learning - Preprocessing - Categorical Data",
+  "link": "../06_machine_learning/018_ml_categorical_data.ipynb",
+  "question": "Hàm Pandas nào thực hiện One Hot Encoding?",
+  "options": [
+   "`pd.get_dummies()`",
+   "`pd.one_hot()`",
+   "`pd.categorical()`",
+   "`pd.encode()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 295,
+  "chapter": "06_machine_learning",
+  "order": 19,
+  "lesson": "Machine Learning - K-means",
+  "link": "../06_machine_learning/019_ml_k_means.ipynb",
+  "question": "Phương pháp nào thường dùng để chọn số cụm K trong K-means?",
+  "options": [
+   "Cross validation",
+   "Elbow method",
+   "Grid search",
+   "One hot encoding"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 296,
+  "chapter": "06_machine_learning",
+  "order": 20,
+  "lesson": "Machine Learning - Bootstrap Aggregation (Bagging)",
+  "link": "../06_machine_learning/020_ml_bootstrap_aggregation.ipynb",
+  "question": "Bagging giúp giải quyết vấn đề gì của cây quyết định?",
+  "options": [
+   "Chạy quá chậm",
+   "Không xử lý được số",
+   "Overfitting (quá khớp dữ liệu huấn luyện)",
+   "Thiếu dữ liệu"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 297,
+  "chapter": "06_machine_learning",
+  "order": 21,
+  "lesson": "Machine Learning - Cross Validation",
+  "link": "../06_machine_learning/021_ml_cross_validation.ipynb",
+  "question": "Phương pháp nào đảm bảo mỗi fold có **tỉ lệ các lớp** giống toàn bộ dữ liệu?",
+  "options": [
+   "KFold",
+   "LeaveOneOut",
+   "StratifiedKFold",
+   "ShuffleSplit"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 298,
+  "chapter": "06_machine_learning",
+  "order": 22,
+  "lesson": "Machine Learning - AUC - ROC Curve",
+  "link": "../06_machine_learning/022_ml_auc_roc_curve.ipynb",
+  "question": "AUC bằng **0.5** nghĩa là gì?",
+  "options": [
+   "Mô hình hoàn hảo",
+   "Mô hình đúng 50 mẫu",
+   "Mô hình sai hoàn toàn",
+   "Mô hình không hơn đoán ngẫu nhiên"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 299,
+  "chapter": "06_machine_learning",
+  "order": 23,
+  "lesson": "Machine Learning - K-nearest neighbors (KNN)",
+  "link": "../06_machine_learning/023_ml_k_nearest_neighbors.ipynb",
+  "question": "Trong KNN, tham số `n_neighbors` có ý nghĩa gì?",
+  "options": [
+   "Số đặc trưng của dữ liệu",
+   "Số láng giềng gần nhất được xét khi phân loại",
+   "Số lần lặp huấn luyện",
+   "Số cụm cần chia"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 300,
+  "chapter": "07_dsa",
+  "order": 1,
+  "lesson": "Python DSA",
+  "link": "../07_dsa/001_python_dsa.ipynb",
+  "question": "Big O notation dùng để mô tả điều gì?",
+  "options": [
+   "Phiên bản Python",
+   "Kích thước file code",
+   "Độ phức tạp (thời gian/bộ nhớ) của giải thuật",
+   "Số dòng code"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 301,
+  "chapter": "07_dsa",
+  "order": 2,
+  "lesson": "Python Lists and Arrays",
+  "link": "../07_dsa/002_dsa_lists_and_arrays.ipynb",
+  "question": "Độ phức tạp của giải thuật tìm giá trị nhỏ nhất bằng cách duyệt toàn bộ list là gì?",
+  "options": [
+   "O(1)",
+   "O(log n)",
+   "O(n²)",
+   "O(n)"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 302,
+  "chapter": "07_dsa",
+  "order": 3,
+  "lesson": "Stacks with Python",
+  "link": "../07_dsa/003_dsa_stacks.ipynb",
+  "question": "Stack hoạt động theo nguyên tắc nào?",
+  "options": [
+   "FIFO — vào trước, ra trước",
+   "Theo thứ tự ưu tiên",
+   "Ngẫu nhiên",
+   "LIFO — vào sau, ra trước"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 303,
+  "chapter": "07_dsa",
+  "order": 4,
+  "lesson": "Queues with Python",
+  "link": "../07_dsa/004_dsa_queues.ipynb",
+  "question": "Thao tác **dequeue** lấy phần tử ở đâu?",
+  "options": [
+   "Giữa hàng đợi",
+   "Phần tử lớn nhất",
+   "Cuối hàng đợi",
+   "Đầu hàng đợi"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 304,
+  "chapter": "07_dsa",
+  "order": 5,
+  "lesson": "Linked Lists with Python",
+  "link": "../07_dsa/005_dsa_linked_lists.ipynb",
+  "question": "Ưu điểm chính của linked list so với mảng là gì?",
+  "options": [
+   "Chèn/xoá phần tử không cần dịch chuyển các phần tử khác",
+   "Luôn được sắp xếp",
+   "Tốn ít bộ nhớ hơn",
+   "Truy cập phần tử theo chỉ số nhanh hơn"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 305,
+  "chapter": "07_dsa",
+  "order": 6,
+  "lesson": "Hash Tables with Python",
+  "link": "../07_dsa/006_dsa_hash_tables.ipynb",
+  "question": "Khi hai phần tử có cùng mã băm, hiện tượng đó gọi là gì?",
+  "options": [
+   "Overflow",
+   "Rotation",
+   "Recursion",
+   "Collision (va chạm)"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 306,
+  "chapter": "07_dsa",
+  "order": 7,
+  "lesson": "Python Trees",
+  "link": "../07_dsa/007_dsa_trees.ipynb",
+  "question": "Node **không có con** trong cây gọi là gì?",
+  "options": [
+   "Parent",
+   "Root",
+   "Leaf",
+   "Edge"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 307,
+  "chapter": "07_dsa",
+  "order": 8,
+  "lesson": "Python Binary Trees",
+  "link": "../07_dsa/008_dsa_binary_trees.ipynb",
+  "question": "Kiểu duyệt nào thăm node hiện tại **sau** cả hai cây con?",
+  "options": [
+   "Level-order",
+   "Pre-order",
+   "In-order",
+   "Post-order"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 308,
+  "chapter": "07_dsa",
+  "order": 9,
+  "lesson": "Python Binary Search Trees",
+  "link": "../07_dsa/009_dsa_binary_search_trees.ipynb",
+  "question": "Trong BST, giá trị nhỏ nhất nằm ở đâu?",
+  "options": [
+   "Ở node phải nhất",
+   "Ở một lá bất kỳ",
+   "Ở node trái nhất",
+   "Ở gốc"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 309,
+  "chapter": "07_dsa",
+  "order": 10,
+  "lesson": "Python AVL Trees",
+  "link": "../07_dsa/010_dsa_avl_trees.ipynb",
+  "question": "Hệ số cân bằng hợp lệ của một node trong cây AVL là gì?",
+  "options": [
+   "Chỉ 0",
+   "0, 1 hoặc 2",
+   "Bất kỳ số nào",
+   "-1, 0 hoặc 1"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 310,
+  "chapter": "07_dsa",
+  "order": 11,
+  "lesson": "Python Graphs",
+  "link": "../07_dsa/011_dsa_graphs.ipynb",
+  "question": "Duyệt BFS thường được cài đặt bằng cấu trúc dữ liệu nào?",
+  "options": [
+   "Queue",
+   "Hash table",
+   "Stack",
+   "Linked list vòng"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 311,
+  "chapter": "07_dsa",
+  "order": 12,
+  "lesson": "Linear Search with Python",
+  "link": "../07_dsa/012_dsa_linear_search.ipynb",
+  "question": "Độ phức tạp trường hợp xấu nhất của tìm kiếm tuyến tính là gì?",
+  "options": [
+   "O(1)",
+   "O(n)",
+   "O(n²)",
+   "O(log n)"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 312,
+  "chapter": "07_dsa",
+  "order": 13,
+  "lesson": "Binary Search with Python",
+  "link": "../07_dsa/013_dsa_binary_search.ipynb",
+  "question": "Điều kiện bắt buộc để dùng tìm kiếm nhị phân là gì?",
+  "options": [
+   "Mảng có số phần tử chẵn",
+   "Mảng chỉ chứa số nguyên",
+   "Mảng đã được sắp xếp",
+   "Mảng không có phần tử trùng"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 313,
+  "chapter": "07_dsa",
+  "order": 14,
+  "lesson": "Bubble Sort with Python",
+  "link": "../07_dsa/014_dsa_bubble_sort.ipynb",
+  "question": "Sau lượt duyệt đầu tiên của bubble sort (sắp tăng dần), phần tử nào chắc chắn nằm đúng vị trí?",
+  "options": [
+   "Phần tử nhỏ nhất ở đầu mảng",
+   "Phần tử lớn nhất ở cuối mảng",
+   "Phần tử ở giữa",
+   "Không phần tử nào"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 314,
+  "chapter": "07_dsa",
+  "order": 15,
+  "lesson": "Selection Sort with Python",
+  "link": "../07_dsa/015_dsa_selection_sort.ipynb",
+  "question": "Mỗi lượt của selection sort làm gì?",
+  "options": [
+   "Tìm giá trị nhỏ nhất của phần chưa sắp xếp và đưa lên đầu phần đó",
+   "So sánh và đổi chỗ các cặp kề nhau",
+   "Chia mảng làm đôi",
+   "Đếm số lần xuất hiện của mỗi giá trị"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 315,
+  "chapter": "07_dsa",
+  "order": 16,
+  "lesson": "Insertion Sort with Python",
+  "link": "../07_dsa/016_dsa_insertion_sort.ipynb",
+  "question": "Insertion sort nhanh nhất khi mảng ở trạng thái nào?",
+  "options": [
+   "Sắp xếp ngược",
+   "Toàn số âm",
+   "Gần như đã được sắp xếp",
+   "Ngẫu nhiên hoàn toàn"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 316,
+  "chapter": "07_dsa",
+  "order": 17,
+  "lesson": "Quicksort with Python",
+  "link": "../07_dsa/017_dsa_quick_sort.ipynb",
+  "question": "Phần tử dùng để chia mảng trong quicksort gọi là gì?",
+  "options": [
+   "Key",
+   "Root",
+   "Median",
+   "Pivot"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 317,
+  "chapter": "07_dsa",
+  "order": 18,
+  "lesson": "Counting Sort with Python",
+  "link": "../07_dsa/018_dsa_counting_sort.ipynb",
+  "question": "Counting sort phù hợp với loại dữ liệu nào?",
+  "options": [
+   "Số âm rất lớn",
+   "Số nguyên không âm trong một khoảng nhỏ",
+   "Số thực",
+   "Chuỗi ký tự bất kỳ"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 318,
+  "chapter": "07_dsa",
+  "order": 19,
+  "lesson": "Radix Sort with Python",
+  "link": "../07_dsa/019_dsa_radix_sort.ipynb",
+  "question": "Radix sort (LSD) bắt đầu sắp xếp theo chữ số nào?",
+  "options": [
+   "Hàng cao nhất",
+   "Ngẫu nhiên",
+   "Hàng đơn vị",
+   "Chữ số ở giữa"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 319,
+  "chapter": "07_dsa",
+  "order": 20,
+  "lesson": "Merge Sort with Python",
+  "link": "../07_dsa/020_dsa_merge_sort.ipynb",
+  "question": "Độ phức tạp **xấu nhất** của merge sort là gì?",
+  "options": [
+   "O(n log n)",
+   "O(n)",
+   "O(n²)",
+   "O(log n)"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 320,
+  "chapter": "08_mysql",
+  "order": 1,
+  "lesson": "Python MySQL",
+  "link": "../08_mysql/001_mysql_get_started.ipynb",
+  "question": "Lệnh nào cài driver MySQL Connector cho Python?",
+  "options": [
+   "`pip install mysql-connector-python`",
+   "`pip install mysql`",
+   "`pip install sql-python`",
+   "`pip install connector`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 321,
+  "chapter": "08_mysql",
+  "order": 2,
+  "lesson": "Python MySQL Create Database",
+  "link": "../08_mysql/002_mysql_create_database.ipynb",
+  "question": "Câu lệnh SQL nào tạo cơ sở dữ liệu mới?",
+  "options": [
+   "`NEW DATABASE mydb`",
+   "`MAKE DATABASE mydb`",
+   "`ADD DATABASE mydb`",
+   "`CREATE DATABASE mydb`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 322,
+  "chapter": "08_mysql",
+  "order": 3,
+  "lesson": "Python MySQL Create Table",
+  "link": "../08_mysql/003_mysql_create_table.ipynb",
+  "question": "Khoá chính (primary key) có đặc điểm gì?",
+  "options": [
+   "Duy nhất cho mỗi bản ghi",
+   "Có thể trùng lặp",
+   "Luôn là kiểu chuỗi",
+   "Chỉ dùng được với SQLite"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 323,
+  "chapter": "08_mysql",
+  "order": 4,
+  "lesson": "Python MySQL Insert Into Table",
+  "link": "../08_mysql/004_mysql_insert.ipynb",
+  "question": "Điều gì xảy ra nếu quên gọi `mydb.commit()` sau `INSERT`?",
+  "options": [
+   "Báo lỗi ngay lập tức",
+   "Dữ liệu bị chèn hai lần",
+   "Bảng bị xoá",
+   "Dữ liệu không được lưu vào bảng"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 324,
+  "chapter": "08_mysql",
+  "order": 5,
+  "lesson": "Python MySQL Select From",
+  "link": "../08_mysql/005_mysql_select.ipynb",
+  "question": "Phương thức nào lấy **chỉ một** dòng kết quả?",
+  "options": [
+   "`fetchfirst()`",
+   "`getone()`",
+   "`fetchone()`",
+   "`fetchall()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 325,
+  "chapter": "08_mysql",
+  "order": 6,
+  "lesson": "Python MySQL Where",
+  "link": "../08_mysql/006_mysql_where.ipynb",
+  "question": "Cách nào an toàn để đưa dữ liệu người dùng nhập vào câu truy vấn?",
+  "options": [
+   "Dùng `format()`",
+   "Dùng toán tử `+`",
+   "Ghép chuỗi bằng f-string",
+   "Dùng placeholder `%s` và truyền giá trị riêng vào `execute()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 326,
+  "chapter": "08_mysql",
+  "order": 7,
+  "lesson": "Python MySQL Order By",
+  "link": "../08_mysql/007_mysql_order_by.ipynb",
+  "question": "Từ khoá nào sắp xếp kết quả **giảm dần**?",
+  "options": [
+   "`ASC`",
+   "`DESC`",
+   "`REVERSE`",
+   "`DOWN`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 327,
+  "chapter": "08_mysql",
+  "order": 8,
+  "lesson": "Python MySQL Delete From By",
+  "link": "../08_mysql/008_mysql_delete.ipynb",
+  "question": "Câu lệnh `DELETE FROM customers` (không có WHERE) sẽ làm gì?",
+  "options": [
+   "Xoá bảng customers",
+   "Báo lỗi",
+   "Xoá tất cả bản ghi trong bảng",
+   "Xoá bản ghi đầu tiên"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 328,
+  "chapter": "08_mysql",
+  "order": 9,
+  "lesson": "Python MySQL Drop Table",
+  "link": "../08_mysql/009_mysql_drop_table.ipynb",
+  "question": "Câu lệnh nào xoá bảng mà **không báo lỗi** khi bảng không tồn tại?",
+  "options": [
+   "`DROP TABLE IF EXISTS customers`",
+   "`DROP customers`",
+   "`DELETE TABLE customers`",
+   "`REMOVE TABLE customers`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 329,
+  "chapter": "08_mysql",
+  "order": 10,
+  "lesson": "Python MySQL Update Table",
+  "link": "../08_mysql/010_mysql_update.ipynb",
+  "question": "Từ khoá nào đi cùng `UPDATE` để gán giá trị mới?",
+  "options": [
+   "`NEW`",
+   "`TO`",
+   "`SET`",
+   "`VALUES`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 330,
+  "chapter": "08_mysql",
+  "order": 11,
+  "lesson": "Python MySQL Limit",
+  "link": "../08_mysql/011_mysql_limit.ipynb",
+  "question": "`SELECT * FROM customers LIMIT 5 OFFSET 2` trả về những bản ghi nào?",
+  "options": [
+   "Bản ghi 3 đến 7",
+   "Bản ghi 1 đến 5",
+   "Bản ghi 2 đến 5",
+   "2 bản ghi đầu tiên"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 331,
+  "chapter": "08_mysql",
+  "order": 12,
+  "lesson": "Python MySQL Join",
+  "link": "../08_mysql/012_mysql_join.ipynb",
+  "question": "Loại JOIN nào hiển thị **tất cả** dòng của bảng bên trái, kể cả khi không khớp?",
+  "options": [
+   "LEFT JOIN",
+   "RIGHT JOIN",
+   "INNER JOIN",
+   "CROSS JOIN"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 332,
+  "chapter": "09_mongodb",
+  "order": 1,
+  "lesson": "Python MongoDB",
+  "link": "../09_mongodb/001_mongodb_get_started.ipynb",
+  "question": "Trong MongoDB, khái niệm tương đương với **bảng (table)** trong SQL là gì?",
+  "options": [
+   "Field",
+   "Document",
+   "Index",
+   "Collection"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 333,
+  "chapter": "09_mongodb",
+  "order": 2,
+  "lesson": "Python MongoDB Create Database",
+  "link": "../09_mongodb/002_mongodb_create_db.ipynb",
+  "question": "Khi nào cơ sở dữ liệu MongoDB thực sự được tạo?",
+  "options": [
+   "Ngay khi gọi `myclient[\"mydatabase\"]`",
+   "Khi gọi `create_database()`",
+   "Khi khởi động lại server",
+   "Khi có ít nhất một collection chứa document"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 334,
+  "chapter": "09_mongodb",
+  "order": 3,
+  "lesson": "Python MongoDB Create Collection",
+  "link": "../09_mongodb/003_mongodb_collection.ipynb",
+  "question": "Phương thức nào liệt kê các collection trong một database?",
+  "options": [
+   "`mydb.show_tables()`",
+   "`mydb.list_collection_names()`",
+   "`mydb.collections()`",
+   "`mydb.list_collections_names()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 335,
+  "chapter": "09_mongodb",
+  "order": 4,
+  "lesson": "Python MongoDB Insert Document",
+  "link": "../09_mongodb/004_mongodb_insert.ipynb",
+  "question": "Phương thức nào chèn **nhiều** document cùng lúc?",
+  "options": [
+   "`insert_many()`",
+   "`insert_one()`",
+   "`insert()`",
+   "`insert_all()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 336,
+  "chapter": "09_mongodb",
+  "order": 5,
+  "lesson": "Python MongoDB Find",
+  "link": "../09_mongodb/005_mongodb_find.ipynb",
+  "question": "`mycol.find({}, {\"_id\": 0, \"name\": 1})` trả về gì?",
+  "options": [
+   "Document đầu tiên",
+   "Chỉ trường `name` của mọi document",
+   "Mọi trường của mọi document",
+   "Báo lỗi"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 337,
+  "chapter": "09_mongodb",
+  "order": 6,
+  "lesson": "Python MongoDB Query",
+  "link": "../09_mongodb/006_mongodb_query.ipynb",
+  "question": "Truy vấn nào tìm document có `age` **lớn hơn 18**?",
+  "options": [
+   "`{\"age\": \"> 18\"}`",
+   "`{\"age\": {\"$gt\": 18}}`",
+   "`{\"age\": {\"gt\": 18}}`",
+   "`{\"$gt\": {\"age\": 18}}`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 338,
+  "chapter": "09_mongodb",
+  "order": 7,
+  "lesson": "Python MongoDB Sort",
+  "link": "../09_mongodb/007_mongodb_sort.ipynb",
+  "question": "Giá trị nào trong `sort(\"name\", ...)` sắp xếp **giảm dần**?",
+  "options": [
+   "`1`",
+   "`0`",
+   "`-1`",
+   "`\"DESC\"`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 339,
+  "chapter": "09_mongodb",
+  "order": 8,
+  "lesson": "Python MongoDB Delete Document",
+  "link": "../09_mongodb/008_mongodb_delete.ipynb",
+  "question": "`mycol.delete_many({})` làm gì?",
+  "options": [
+   "Xoá cả database",
+   "Không làm gì",
+   "Xoá mọi document trong collection",
+   "Xoá document đầu tiên"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 340,
+  "chapter": "09_mongodb",
+  "order": 9,
+  "lesson": "Python MongoDB Drop Collection",
+  "link": "../09_mongodb/009_mongodb_drop_collection.ipynb",
+  "question": "Phương thức nào xoá **cả một collection**?",
+  "options": [
+   "`remove()`",
+   "`drop()`",
+   "`clear()`",
+   "`delete_many({})`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 341,
+  "chapter": "09_mongodb",
+  "order": 10,
+  "lesson": "Python MongoDB Update",
+  "link": "../09_mongodb/010_mongodb_update.ipynb",
+  "question": "Toán tử nào dùng để gán giá trị mới cho trường trong `update_one()`?",
+  "options": [
+   "`$value`",
+   "`$set`",
+   "`$update`",
+   "`$new`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 342,
+  "chapter": "09_mongodb",
+  "order": 11,
+  "lesson": "Python MongoDB Limit",
+  "link": "../09_mongodb/011_mongodb_limit.ipynb",
+  "question": "Phương thức nào giới hạn số document trả về?",
+  "options": [
+   "`top()`",
+   "`limit()`",
+   "`head()`",
+   "`max()`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 343,
+  "chapter": "04_python_modules/django",
+  "order": 1,
+  "lesson": "Django Tutorial",
+  "link": "../04_python_modules/django/001_django_home.ipynb",
+  "question": "Django là gì?",
+  "options": [
+   "Thư viện vẽ đồ thị",
+   "Hệ quản trị cơ sở dữ liệu",
+   "Web framework phía server viết bằng Python",
+   "Trình duyệt web"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 344,
+  "chapter": "04_python_modules/django",
+  "order": 2,
+  "lesson": "Django Introduction",
+  "link": "../04_python_modules/django/002_django_intro.ipynb",
+  "question": "Trong mô hình MVT của Django, thành phần nào nhận request và trả về response?",
+  "options": [
+   "Template",
+   "Model",
+   "URL",
+   "View"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 345,
+  "chapter": "04_python_modules/django",
+  "order": 3,
+  "lesson": "Django Getting Started",
+  "link": "../04_python_modules/django/003_django_get_started.ipynb",
+  "question": "Công cụ nào dùng để cài Django?",
+  "options": [
+   "conda bắt buộc",
+   "apt",
+   "npm",
+   "pip"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 346,
+  "chapter": "04_python_modules/django",
+  "order": 4,
+  "lesson": "Django - Create Virtual Environment",
+  "link": "../04_python_modules/django/004_django_create_virtual_environment.ipynb",
+  "question": "Lệnh nào tạo môi trường ảo tên `myworld`?",
+  "options": [
+   "`python venv create myworld`",
+   "`python -m venv myworld`",
+   "`pip venv myworld`",
+   "`django-admin venv myworld`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 347,
+  "chapter": "04_python_modules/django",
+  "order": 5,
+  "lesson": "Install Django",
+  "link": "../04_python_modules/django/005_django_install_django.ipynb",
+  "question": "Lệnh nào kiểm tra phiên bản Django?",
+  "options": [
+   "`django --check`",
+   "`django-admin --version`",
+   "`pip django version`",
+   "`python django.py`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 348,
+  "chapter": "04_python_modules/django",
+  "order": 6,
+  "lesson": "Django Create Project",
+  "link": "../04_python_modules/django/006_django_create_project.ipynb",
+  "question": "Lệnh nào khởi động server phát triển của Django?",
+  "options": [
+   "`python server.py`",
+   "`python manage.py start`",
+   "`django-admin run`",
+   "`python manage.py runserver`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 349,
+  "chapter": "04_python_modules/django",
+  "order": 7,
+  "lesson": "Django Create App",
+  "link": "../04_python_modules/django/007_django_create_app.ipynb",
+  "question": "Lệnh nào tạo app tên `members`?",
+  "options": [
+   "`pip install members`",
+   "`django-admin startproject members`",
+   "`python manage.py startapp members`",
+   "`python manage.py createapp members`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 350,
+  "chapter": "04_python_modules/django",
+  "order": 8,
+  "lesson": "Django Views",
+  "link": "../04_python_modules/django/008_django_views.ipynb",
+  "question": "View trong Django trả về đối tượng gì?",
+  "options": [
+   "Một HTTP response (ví dụ `HttpResponse`)",
+   "Một dictionary",
+   "Một model",
+   "Một file CSS"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 351,
+  "chapter": "04_python_modules/django",
+  "order": 9,
+  "lesson": "Django URLs",
+  "link": "../04_python_modules/django/009_django_urls.ipynb",
+  "question": "Hàm nào dùng để \"nhúng\" file `urls.py` của app vào `urls.py` gốc?",
+  "options": [
+   "`import()`",
+   "`register()`",
+   "`include()`",
+   "`extend()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 352,
+  "chapter": "04_python_modules/django",
+  "order": 10,
+  "lesson": "Django Templates",
+  "link": "../04_python_modules/django/010_django_templates.ipynb",
+  "question": "Phải thêm tên app vào đâu để Django nhận biết app?",
+  "options": [
+   "`views.py`",
+   "`urls.py`",
+   "`manage.py`",
+   "`INSTALLED_APPS` trong `settings.py`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 353,
+  "chapter": "04_python_modules/django",
+  "order": 11,
+  "lesson": "Django Models",
+  "link": "../04_python_modules/django/011_django_models.ipynb",
+  "question": "Sau khi sửa `models.py`, cần chạy hai lệnh nào (theo thứ tự)?",
+  "options": [
+   "`runserver` rồi `migrate`",
+   "`migrate` rồi `makemigrations`",
+   "`startapp` rồi `migrate`",
+   "`makemigrations` rồi `migrate`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 354,
+  "chapter": "04_python_modules/django",
+  "order": 12,
+  "lesson": "Django Insert Data",
+  "link": "../04_python_modules/django/012_django_insert_data.ipynb",
+  "question": "Sau khi tạo đối tượng `Member(...)`, phương thức nào lưu nó vào cơ sở dữ liệu?",
+  "options": [
+   "`save()`",
+   "`add()`",
+   "`commit()`",
+   "`insert()`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 355,
+  "chapter": "04_python_modules/django",
+  "order": 13,
+  "lesson": "Django Update Data",
+  "link": "../04_python_modules/django/013_django_update_data.ipynb",
+  "question": "Sau khi đổi `x.firstname = \"Mới\"`, cần làm gì để lưu thay đổi?",
+  "options": [
+   "Gọi `x.update()`",
+   "Không cần làm gì",
+   "Chạy `migrate`",
+   "Gọi `x.save()`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 356,
+  "chapter": "04_python_modules/django",
+  "order": 14,
+  "lesson": "Django Delete Data",
+  "link": "../04_python_modules/django/014_django_delete_data.ipynb",
+  "question": "Phương thức nào xoá một bản ghi trong Django ORM?",
+  "options": [
+   "`remove()`",
+   "`erase()`",
+   "`delete()`",
+   "`drop()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 357,
+  "chapter": "04_python_modules/django",
+  "order": 15,
+  "lesson": "Django Update Model",
+  "link": "../04_python_modules/django/015_django_update_model.ipynb",
+  "question": "Vì sao trường mới thêm vào bảng đã có dữ liệu nên có `null=True`?",
+  "options": [
+   "Để tăng tốc độ truy vấn",
+   "Vì Django bắt buộc mọi trường phải `null=True`",
+   "Vì các bản ghi cũ chưa có giá trị cho trường mới",
+   "Để trường đó luôn trống"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 358,
+  "chapter": "04_python_modules/django",
+  "order": 16,
+  "lesson": "Django Prepare Template and View",
+  "link": "../04_python_modules/django/016_django_prep_template_and_view.ipynb",
+  "question": "Trong template Django, cú pháp nào dùng để hiển thị **giá trị của biến**?",
+  "options": [
+   "`{{ biến }}`",
+   "`<% biến %>`",
+   "`${biến}`",
+   "`{% biến %}`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 359,
+  "chapter": "04_python_modules/django",
+  "order": 17,
+  "lesson": "Django Add Link to Details",
+  "link": "../04_python_modules/django/017_django_add_link_to_details.ipynb",
+  "question": "`<int:id>` trong `path('members/details/<int:id>', ...)` có ý nghĩa gì?",
+  "options": [
+   "Một biến toàn cục",
+   "Id của template",
+   "Một chuỗi bất kỳ",
+   "Bắt một số nguyên trong URL và truyền vào view với tên `id`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 360,
+  "chapter": "04_python_modules/django",
+  "order": 18,
+  "lesson": "Django Add Master Template",
+  "link": "../04_python_modules/django/018_django_add_master_template.ipynb",
+  "question": "Thẻ nào giúp template con **kế thừa** template cha?",
+  "options": [
+   "`{% parent %}`",
+   "`{% inherit %}`",
+   "`{% extends %}`",
+   "`{% include %}`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 361,
+  "chapter": "04_python_modules/django",
+  "order": 19,
+  "lesson": "Django Add Main Index Page",
+  "link": "../04_python_modules/django/019_django_add_main_index_page.ipynb",
+  "question": "Đường dẫn nào trong `urlpatterns` tương ứng với **trang chủ**?",
+  "options": [
+   "`path('home/', ...)`",
+   "`path('index', ...)`",
+   "`path('', ...)`",
+   "`path('/', ...)`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 362,
+  "chapter": "04_python_modules/django",
+  "order": 20,
+  "lesson": "Django 404 (page not found)",
+  "link": "../04_python_modules/django/020_django_404_template.ipynb",
+  "question": "Khi đặt `DEBUG = False`, cần khai báo thêm cấu hình nào?",
+  "options": [
+   "`ALLOWED_HOSTS`",
+   "`STATIC_URL`",
+   "`INSTALLED_APPS`",
+   "`TEMPLATES`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 363,
+  "chapter": "04_python_modules/django",
+  "order": 21,
+  "lesson": "Django Add Test View",
+  "link": "../04_python_modules/django/021_django_add_test_view.ipynb",
+  "question": "Biến `fruits` được đưa từ view sang template thông qua đâu?",
+  "options": [
+   "`settings.py`",
+   "Dictionary `context`",
+   "`urls.py`",
+   "Biến toàn cục"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 364,
+  "chapter": "04_python_modules/django",
+  "order": 22,
+  "lesson": "Django Admin",
+  "link": "../04_python_modules/django/022_django_admin.ipynb",
+  "question": "Trang quản trị Django mặc định nằm ở đường dẫn nào?",
+  "options": [
+   "`/manage/`",
+   "`/dashboard/`",
+   "`/admin/`",
+   "`/django/`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 365,
+  "chapter": "04_python_modules/django",
+  "order": 23,
+  "lesson": "Django Admin - Create User",
+  "link": "../04_python_modules/django/023_django_admin_create_user.ipynb",
+  "question": "Lệnh nào tạo tài khoản quản trị cho Django admin?",
+  "options": [
+   "`python manage.py adduser`",
+   "`django-admin superuser`",
+   "`python manage.py createadmin`",
+   "`python manage.py createsuperuser`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 366,
+  "chapter": "04_python_modules/django",
+  "order": 24,
+  "lesson": "Django Admin - Include Member",
+  "link": "../04_python_modules/django/024_django_admin_include_models.ipynb",
+  "question": "Câu lệnh nào đưa model `Member` vào trang admin?",
+  "options": [
+   "`admin.include(Member)`",
+   "`Member.register(admin)`",
+   "`admin.add(Member)`",
+   "`admin.site.register(Member)`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 367,
+  "chapter": "04_python_modules/django",
+  "order": 25,
+  "lesson": "Django Admin - Set Fields to Display",
+  "link": "../04_python_modules/django/025_django_admin_set_list_display.ipynb",
+  "question": "Thuộc tính nào của `ModelAdmin` chọn các cột hiển thị trong danh sách?",
+  "options": [
+   "`display`",
+   "`list_display`",
+   "`fields_show`",
+   "`columns`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 368,
+  "chapter": "04_python_modules/django",
+  "order": 26,
+  "lesson": "Django Admin - Update Members",
+  "link": "../04_python_modules/django/026_django_admin_update_members.ipynb",
+  "question": "Trong trang admin, bấm nút nào để lưu thay đổi?",
+  "options": [
+   "SAVE",
+   "SUBMIT",
+   "OK",
+   "UPDATE"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 369,
+  "chapter": "04_python_modules/django",
+  "order": 27,
+  "lesson": "Django Admin - Add Members",
+  "link": "../04_python_modules/django/027_django_admin_add_members.ipynb",
+  "question": "Đường dẫn của form thêm mới một Member trong admin là gì?",
+  "options": [
+   "`/admin/add/member/`",
+   "`/admin/members/new/`",
+   "`/members/add/`",
+   "`/admin/members/member/add/`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 370,
+  "chapter": "04_python_modules/django",
+  "order": 28,
+  "lesson": "Django Admin - Delete Members",
+  "link": "../04_python_modules/django/028_django_admin_delete_members.ipynb",
+  "question": "Để xoá nhiều thành viên cùng lúc trong admin, ta dùng gì?",
+  "options": [
+   "Chạy lệnh `flush`",
+   "Nút DELETE ALL",
+   "Tích chọn rồi dùng Action \"Delete selected members\"",
+   "Phải xoá từng người"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 371,
+  "chapter": "04_python_modules/django",
+  "order": 29,
+  "lesson": "Django Variables",
+  "link": "../04_python_modules/django/029_django_variables.ipynb",
+  "question": "Thẻ nào tạo biến tạm ngay trong template?",
+  "options": [
+   "`{% let %}`",
+   "`{% with %}`",
+   "`{% var %}`",
+   "`{% set %}`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 372,
+  "chapter": "04_python_modules/django",
+  "order": 30,
+  "lesson": "Django Template Tags",
+  "link": "../04_python_modules/django/030_django_tags.ipynb",
+  "question": "Cú pháp nào bao quanh **thẻ** template Django?",
+  "options": [
+   "`{# #}`",
+   "`<? ?>`",
+   "`{% %}`",
+   "`{{ }}`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 373,
+  "chapter": "04_python_modules/django",
+  "order": 31,
+  "lesson": "Django if Tag",
+  "link": "../04_python_modules/django/031_django_if_else.ipynb",
+  "question": "Thẻ nào **kết thúc** khối `if` trong template Django?",
+  "options": [
+   "`{% fi %}`",
+   "`{% end %}`",
+   "`{% /if %}`",
+   "`{% endif %}`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 374,
+  "chapter": "04_python_modules/django",
+  "order": 32,
+  "lesson": "Django for Tag",
+  "link": "../04_python_modules/django/032_django_for_loop.ipynb",
+  "question": "Biến nào cho số thứ tự vòng lặp **bắt đầu từ 1**?",
+  "options": [
+   "`forloop.index`",
+   "`forloop.counter`",
+   "`forloop.first`",
+   "`forloop.counter0`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 375,
+  "chapter": "04_python_modules/django",
+  "order": 33,
+  "lesson": "Django comment Tag",
+  "link": "../04_python_modules/django/033_django_comment.ipynb",
+  "question": "Cú pháp nào là chú thích **ngắn** trong template Django?",
+  "options": [
+   "`{# ... #}`",
+   "`<!-- -->`",
+   "`// ...`",
+   "`{% # %}`"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 376,
+  "chapter": "04_python_modules/django",
+  "order": 34,
+  "lesson": "Django include Tag",
+  "link": "../04_python_modules/django/034_django_include.ipynb",
+  "question": "Thẻ nào chèn nội dung của template khác vào vị trí hiện tại?",
+  "options": [
+   "`{% extends %}`",
+   "`{% import %}`",
+   "`{% insert %}`",
+   "`{% include %}`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 377,
+  "chapter": "04_python_modules/django",
+  "order": 35,
+  "lesson": "Django QuerySet",
+  "link": "../04_python_modules/django/035_django_queryset_introduction.ipynb",
+  "question": "`Member.objects.all()` trả về kiểu đối tượng gì?",
+  "options": [
+   "dict",
+   "Member",
+   "QuerySet",
+   "list"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 378,
+  "chapter": "04_python_modules/django",
+  "order": 36,
+  "lesson": "Django QuerySet - Get Data",
+  "link": "../04_python_modules/django/036_django_queryset_get.ipynb",
+  "question": "Phương thức nào trả về mỗi bản ghi dưới dạng **dictionary**?",
+  "options": [
+   "`dicts()`",
+   "`values_list()`",
+   "`values()`",
+   "`as_dict()`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 379,
+  "chapter": "04_python_modules/django",
+  "order": 37,
+  "lesson": "Django QuerySet - Filter",
+  "link": "../04_python_modules/django/037_django_queryset_filter.ipynb",
+  "question": "Cách nào lọc thành viên có firstname bắt đầu bằng \"L\"?",
+  "options": [
+   "`filter(firstname='L%')`",
+   "`filter(firstname.startswith('L'))`",
+   "`filter(firstname__startswith='L')`",
+   "`filter(startswith(firstname='L'))`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 380,
+  "chapter": "04_python_modules/django",
+  "order": 38,
+  "lesson": "Django QuerySet - Order By",
+  "link": "../04_python_modules/django/038_django_queryset_order_by.ipynb",
+  "question": "`order_by('-joined_date')` sắp xếp thế nào?",
+  "options": [
+   "Bỏ qua trường joined_date",
+   "Báo lỗi",
+   "Tăng dần theo ngày tham gia",
+   "Giảm dần theo ngày tham gia (mới nhất trước)"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 381,
+  "chapter": "04_python_modules/django",
+  "order": 39,
+  "lesson": "Django Add Static Files",
+  "link": "../04_python_modules/django/039_django_add_static_files.ipynb",
+  "question": "Thẻ nào phải đặt ở đầu template để dùng `{% static %}`?",
+  "options": [
+   "`{% static %}`",
+   "`{% import static %}`",
+   "`{% load static %}`",
+   "`{% include static %}`"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 382,
+  "chapter": "04_python_modules/django",
+  "order": 40,
+  "lesson": "Django - Installing WhiteNoise",
+  "link": "../04_python_modules/django/040_django_install_whitenoise.ipynb",
+  "question": "`WhiteNoiseMiddleware` nên đặt ở đâu trong `MIDDLEWARE`?",
+  "options": [
+   "Trong `INSTALLED_APPS`",
+   "Trong `urls.py`",
+   "Ngay sau `SecurityMiddleware`",
+   "Ở cuối danh sách"
+  ],
+  "correct": "C",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 383,
+  "chapter": "04_python_modules/django",
+  "order": 41,
+  "lesson": "Django - Collect Static Files",
+  "link": "../04_python_modules/django/041_django_collect_static_files.ipynb",
+  "question": "Lệnh nào thu gom mọi file tĩnh vào `STATIC_ROOT`?",
+  "options": [
+   "`python manage.py static`",
+   "`python manage.py gatherstatic`",
+   "`python manage.py migrate static`",
+   "`python manage.py collectstatic`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 384,
+  "chapter": "04_python_modules/django",
+  "order": 42,
+  "lesson": "Django - Add Global Static Files",
+  "link": "../04_python_modules/django/042_django_add_global_static_files.ipynb",
+  "question": "Cấu hình nào khai báo thêm các thư mục chứa file tĩnh dùng chung?",
+  "options": [
+   "`TEMPLATES_DIRS`",
+   "`STATIC_URL`",
+   "`STATIC_ROOT`",
+   "`STATICFILES_DIRS`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 385,
+  "chapter": "04_python_modules/django",
+  "order": 43,
+  "lesson": "Django - Add Styles to the Project",
+  "link": "../04_python_modules/django/043_django_add_styles_to_the_project.ipynb",
+  "question": "Vì sao nên nạp file CSS trong `master.html`?",
+  "options": [
+   "Để mọi trang kế thừa master đều dùng chung CSS",
+   "Để tăng tốc truy vấn cơ sở dữ liệu",
+   "Vì template con không nạp được CSS",
+   "Vì Django bắt buộc"
+  ],
+  "correct": "A",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 386,
+  "chapter": "04_python_modules/django",
+  "order": 44,
+  "lesson": "Django - PostgreSQL",
+  "link": "../04_python_modules/django/044_django_postgresql.ipynb",
+  "question": "Giá trị `ENGINE` nào dùng cho PostgreSQL?",
+  "options": [
+   "`'django.postgresql'`",
+   "`'django.db.backends.sqlite3'`",
+   "`'postgres.engine'`",
+   "`'django.db.backends.postgresql'`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 387,
+  "chapter": "04_python_modules/django",
+  "order": 45,
+  "lesson": "Django - Deploy",
+  "link": "../04_python_modules/django/045_django_deploy.ipynb",
+  "question": "Lệnh nào tạo file liệt kê các package của dự án?",
+  "options": [
+   "`pip list > packages.txt`",
+   "`pip freeze > requirements.txt`",
+   "`pip export`",
+   "`python manage.py requirements`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 388,
+  "chapter": "04_python_modules/django",
+  "order": 46,
+  "lesson": "Django - Add Slug Field",
+  "link": "../04_python_modules/django/046_django_add_slug_field.ipynb",
+  "question": "`slugify(\"An Nguyễn\")` cho kết quả là gì?",
+  "options": [
+   "`\"An Nguyễn\"`",
+   "`\"AN-NGUYEN\"`",
+   "`\"an_nguyễn\"`",
+   "`\"an-nguyen\"`"
+  ],
+  "correct": "D",
+  "answers": [],
+  "explanation": ""
+ },
+ {
+  "id": 389,
+  "chapter": "04_python_modules/django",
+  "order": 47,
+  "lesson": "Django - Add Bootstrap 5",
+  "link": "../04_python_modules/django/047_django_add_bootstrap5.ipynb",
+  "question": "Cách nào thêm Bootstrap 5 vào dự án **không cần cài package**?",
+  "options": [
+   "`pip install bootstrap`",
+   "Thêm thẻ `<link>`/`<script>` từ CDN vào template",
+   "Chạy `collectstatic`",
+   "Thêm `'bootstrap'` vào `INSTALLED_APPS`"
+  ],
+  "correct": "B",
+  "answers": [],
+  "explanation": ""
+ }
+]

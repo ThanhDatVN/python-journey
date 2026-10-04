@@ -1,0 +1,27 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== File được tạo ra khi chạy các bài học =====
+01_python_tutorial/helloworld.py
+01_python_tutorial/mymodule.py
+01_python_tutorial/demofile.txt
+03_file_handling/*.txt
+!03_file_handling/demofile.txt
+04_python_modules/scipy/*.mat
+04_python_modules/django/my_tennis_club/
+04_python_modules/django/my_tennis_club.zip
+12_exercises/*.txt
+13_quizzes/review_history.json
+
+# ===== Hệ điều hành / trình soạn thảo =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

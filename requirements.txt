@@ -1,0 +1,22 @@
+# ===== Môi trường học (Jupyter) =====
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.0
+
+# ===== Python Modules: NumPy · Pandas · SciPy · Matplotlib · Machine Learning =====
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+scikit-learn>=1.4
+
+# ===== Web & cơ sở dữ liệu: Django · MySQL · MongoDB =====
+django>=5.0
+whitenoise>=6.0
+mysql-connector-python>=8.0
+pymongo>=4.0
+mongomock>=4.1
+
+# ===== Khác =====
+requests>=2.31

@@ -1,0 +1,4 @@
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Xin chào! Dòng này có tiếng Việt để thử encoding.
+Good Luck!
